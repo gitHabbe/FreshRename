@@ -27,3 +27,18 @@ class TVShow:
         userConfirm = input(f"Is '{showResponse['show']['name']}' correct TV-show? [y/n]: ")
         if userConfirm.lower() == "y" or userConfirm.lower() == "":
             return self.requester.episodes(showResponse)
+
+    @staticmethod
+    def confirmRename(fileList):
+        if len(fileList) == 0:
+            print("\033[91m" + "No changes found" + "\033[0;0m")
+            return False
+        for fileItem in fileList:
+            print(f"Old: {fileItem['oldName']}")
+            print(f"New: {fileItem['newName']}")
+        isYes = input("Rename files? (y/n): ")
+        if isYes == "y":
+            return True
+        return False
+
+

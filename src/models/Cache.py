@@ -6,7 +6,6 @@ from src.models.Regex import FileRegex
 
 class Cache:
     store = {}
-    fileList = []
 
     def addStore(self, entry: os.DirEntry) -> None:
         match = self.__getMatch(entry)
