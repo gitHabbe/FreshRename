@@ -1,4 +1,3 @@
-import nt
 import os
 from models.Cache import Cache
 
@@ -25,7 +24,8 @@ class DirTraverse:
             self.cache.addStore(entry)
         entries.close()
 
-    def __isFolder(self, entry: nt.DirEntry):
+    def __isFolder(self, entry: os.DirEntry):
         if entry.is_dir():
             self.__path = entry.path
             self.buildCache()
+

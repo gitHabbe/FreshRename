@@ -7,19 +7,21 @@ from models.namePatterns.NamePattern import LowerLetters, UpperLetters, UpperX, 
 class Rename:
     fileList = []
 
-    def __init__(self, dirTraverse: DirTraverse, data) -> None:
+    def __init__(self, dirTraverse: DirTraverse, jsonData, nameStrategy: NameStrategy) -> None:
         self.dirTraverse = dirTraverse
-        self.data = data
+        self.jsonData = jsonData
+        self.nameStrategy = nameStrategy
         # self.askConfirmation()
 
-    @staticmethod
-    def __fileItem(localFile: LocalFile, episode) -> dict:
+    def __fileItem(self, localFile: LocalFile, episode) -> dict:
         seasonNum, episodeNum, _ = localFile.uid
         fileType = localFile.entry.name.split(".")[-1]
-        namePattern = LowerLetters(seasonNum, episodeNum)
+        # namePattern = self.namePattern(seasonNum, episodeNum)
+        self.nameStrategy.season = seasonNum
+        self.nameStrategy.episode = episodeNum
         oldName = localFile.match.string
         oldFile = f"{localFile.path()}/{oldName}"
-        newName = f"{namePattern.name()}{episode['name']}.{fileType}"
+        newName = f"{self.nameStrategy.name()}{episode['name']}.{fileType}"
         newFile = f"{localFile.path()}/{newName}"
         return {
             "old": oldFile,
@@ -36,7 +38,7 @@ class Rename:
 
     def fillFileList(self):
         store = self.dirTraverse.cache.store
-        for episode in self.data:
+        for episode in self.jsonData:
             seasonNum, episodeNum = self.__uid(episode)
             localFile = store.get(seasonNum + episodeNum)
             if localFile is None:
@@ -47,11 +49,10 @@ class Rename:
                 continue
             self.__appendFileList(localFile, episode)
 
-    def renameFiles(self, confirm: bool):
-        if not confirm:
-            print("\033[91m" + "File names not changed!" + "\033[0;0m")
+    def renameFiles(self):
+        # if not confirm:
+        #     print("\033[91m" + "File names not changed!" + "\033[0;0m")
         for singleFile in self.fileList:
-            # print(singleFile)
             os.rename(singleFile["old"], singleFile["new"])
 
     @staticmethod

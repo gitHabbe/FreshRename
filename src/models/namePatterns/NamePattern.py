@@ -2,7 +2,9 @@ from abc import abstractmethod, ABC
 
 
 class NameBase:
-    def __init__(self, season, episode):
+    # season: str
+    # episode: str
+    def __init__(self, season="", episode=""):
         self.season = season
         self.episode = episode
 

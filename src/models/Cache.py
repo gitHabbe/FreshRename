@@ -1,7 +1,7 @@
 import os
 import re
-from src.models.LocalFile import LocalFile
-from src.models.Regex import FileRegex
+from models.LocalFile import LocalFile
+from models.Regex import FileRegex
 
 
 class Cache:
