@@ -1,7 +1,7 @@
 import os
 from models.DirTraverse import DirTraverse
 from models.LocalFile import LocalFile
-from models.namePatterns.NamePattern import LowerLetters, UpperLetters, UpperX, LowerX, NameStrategy
+from models.namePatterns.NamePattern import NameStrategy
 
 
 class Rename:
@@ -11,28 +11,25 @@ class Rename:
         self.dirTraverse = dirTraverse
         self.jsonData = jsonData
         self.nameStrategy = nameStrategy
-        # self.askConfirmation()
 
     def __fileItem(self, localFile: LocalFile, episode) -> dict:
-        seasonNum, episodeNum, _ = localFile.uid
+        self.__fillStrategy(localFile)
+        fileData = {}
         fileType = localFile.entry.name.split(".")[-1]
-        # namePattern = self.namePattern(seasonNum, episodeNum)
+        fileData["oldName"] = localFile.match.string
+        fileData["oldFile"] = localFile.entry.path
+        fileData["newName"] = f"{self.nameStrategy.name()}{episode['name']}.{fileType}"
+        fileData["newFile"] = f"{localFile.path()}/{fileData['newName']}"
+        return fileData
+
+    def __fillStrategy(self, localFile: LocalFile):
+        seasonNum, episodeNum, _ = localFile.uid
         self.nameStrategy.season = seasonNum
         self.nameStrategy.episode = episodeNum
-        oldName = localFile.match.string
-        oldFile = f"{localFile.path()}/{oldName}"
-        newName = f"{self.nameStrategy.name()}{episode['name']}.{fileType}"
-        newFile = f"{localFile.path()}/{newName}"
-        return {
-            "old": oldFile,
-            "oldName": oldName,
-            "new": newFile,
-            "newName": newName
-        }
 
     def __appendFileList(self, localFile: LocalFile, episode) -> None:
         fileItem = self.__fileItem(localFile, episode)
-        if fileItem["old"] == fileItem["new"]:
+        if fileItem["oldFile"] == fileItem["newFile"]:
             return
         self.fileList.append(fileItem)
 
@@ -50,10 +47,8 @@ class Rename:
             self.__appendFileList(localFile, episode)
 
     def renameFiles(self):
-        # if not confirm:
-        #     print("\033[91m" + "File names not changed!" + "\033[0;0m")
         for singleFile in self.fileList:
-            os.rename(singleFile["old"], singleFile["new"])
+            os.rename(singleFile["oldFile"], singleFile["newFile"])
 
     @staticmethod
     def __uid(episode) -> list:

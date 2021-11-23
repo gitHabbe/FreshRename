@@ -1,4 +1,6 @@
 import os
+import subprocess
+from sys import platform
 from models.Cache import Cache
 
 
@@ -10,10 +12,15 @@ class DirTraverse:
 
     @staticmethod
     def __formatPath(path: str) -> str:
-        return path if path[-1] == "\\" else path + "\\"
+        print("path:", path)
+        if platform == "win32":
+            return WindowsPath(path).formattedPath()
+        elif platform == "linux":
+            return UnixPath(path).formattedPath()
 
     def __entriesFromDir(self):
         formattedPath = self.__formatPath(self.__path)
+        print(formattedPath)
         return os.scandir(formattedPath)
 
     # noinspection PyTypeChecker
@@ -29,3 +36,23 @@ class DirTraverse:
             self.__path = entry.path
             self.buildCache()
 
+
+class OSPath:
+    def __init__(self, path: str):
+        self.path = path
+
+
+class WindowsPath(OSPath):
+
+    def formattedPath(self):
+        return self.path if self.path[-1] == "\\" else self.path + "\\"
+
+
+class UnixPath(OSPath):
+
+    def formattedPath(self):
+        if "\\" in self.path:
+            command = subprocess.check_output(["wslpath", "-a", f"{self.path}"])
+            self.path = command.decode("utf-8").strip()
+            print(f"Root folder: {self.path}")
+        return self.path if self.path[-1] == "/" else self.path + "/"

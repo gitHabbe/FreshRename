@@ -8,7 +8,6 @@ class LocalPath:
         self.__jsonData = self.readPath()
 
     def readPath(self):
-        # with open("../../cache.json", "r") as f:
         with open(self.filePath, "r") as f:
             __jsonData = json.load(f)
         return __jsonData
