@@ -1,7 +1,7 @@
 # import subprocess
 from sys import platform
 
-from frontend.cli import CommandLine
+from frontend.CommandLine import CommandLine
 from models.DirTraverse import DirTraverse
 from models.namePatterns.NamePattern import UpperLetters
 # from src.models.TVShow import TVShow

@@ -42,3 +42,6 @@ class TVShow:
         return False
 
 
+def asdf(tvshow: TVShow):
+    print(tvshow)
+    print("asdf")

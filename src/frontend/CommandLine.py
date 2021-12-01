@@ -11,6 +11,7 @@ from models.namePatterns.PatternSelector import patterns
 class CommandLine:
     cli = questionary
     localPath = LocalPath()
+    requestShow = RequestShow()
 
     def confirmPath(self):
         cachedPath = self.localPath.path()
@@ -18,12 +19,12 @@ class CommandLine:
         samePath = "Use same path?"
         return self.cli.confirm(samePath).ask()
 
-    def newPath(self):
+    def choosePath(self):
         newPath = self.cli.text("Input new path:").ask()
         self.localPath.savePath(newPath)
         return newPath
 
-    def selectPattern(self) -> NameStrategy:
+    def choosePattern(self) -> NameStrategy:
         patternOptions = list(patterns.keys())
         chosenPattern = self.cli.select(
             message="Select pattern",
@@ -33,22 +34,30 @@ class CommandLine:
         namePatternClass = patterns.get(chosenPattern)
         return namePatternClass()
 
-    def askShowName(self):
+    def chooseShow(self):
         showName = self.cli.text("TV-show search:").ask()
         return showName
 
+    def confirmShow(self, showResponse):
+        showName = showResponse['show']['name']
+        userConfirm = self.cli.confirm(f"Is '{showName}' correct TV-show?").ask()
+        if not userConfirm:
+            newShow = self.chooseShow()
+            requestShow = self.requestShow.name(newShow)
+            self.confirmShow(requestShow)
+        return self.requestShow.episodes(showResponse)
+
     def requestShowData(self):
-        showName = self.askShowName()
-        requestShow = RequestShow()
-        tvShow = requestShow.name(showName)
-        episodes = requestShow.episodes(tvShow)
+        showName = self.chooseShow()
+        requestShow = self.requestShow.name(showName)
+        episodes = self.confirmShow(requestShow)
         return episodes
 
     def getFileList(self):
         jsonEpisodes = self.requestShowData()
         if not self.confirmPath():
-            self.newPath()
-        namePattern: NameStrategy = self.selectPattern()
+            self.choosePath()
+        namePattern: NameStrategy = self.choosePattern()
         path = self.localPath.path()
         dirTraverse = DirTraverse(path)
         dirTraverse.buildCache()
