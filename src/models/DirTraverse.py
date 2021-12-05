@@ -12,7 +12,6 @@ class DirTraverse:
 
     @staticmethod
     def __formatPath(path: str) -> str:
-        print("path:", path)
         if platform == "win32":
             return WindowsPath(path).formattedPath()
         elif platform == "linux":
@@ -20,7 +19,6 @@ class DirTraverse:
 
     def __entriesFromDir(self):
         formattedPath = self.__formatPath(self.__path)
-        print(formattedPath)
         return os.scandir(formattedPath)
 
     # noinspection PyTypeChecker

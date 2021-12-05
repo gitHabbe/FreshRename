@@ -13,7 +13,7 @@ class Rename:
         self.nameStrategy = nameStrategy
 
     def __fileItem(self, localFile: LocalFile, episode) -> dict:
-        self.__fillStrategy(localFile)
+        self.__setStrategy(localFile)
         fileData = {}
         fileType = localFile.entry.name.split(".")[-1]
         fileData["oldName"] = localFile.match.string
@@ -22,14 +22,14 @@ class Rename:
         fileData["newFile"] = f"{localFile.path()}/{fileData['newName']}"
         return fileData
 
-    def __fillStrategy(self, localFile: LocalFile):
+    def __setStrategy(self, localFile: LocalFile):
         seasonNum, episodeNum, _ = localFile.uid
         self.nameStrategy.season = seasonNum
         self.nameStrategy.episode = episodeNum
 
     def __appendFileList(self, localFile: LocalFile, episode) -> None:
         fileItem = self.__fileItem(localFile, episode)
-        if fileItem["oldFile"] == fileItem["newFile"]:
+        if fileItem["oldName"] == fileItem["newName"]:
             return
         self.fileList.append(fileItem)
 

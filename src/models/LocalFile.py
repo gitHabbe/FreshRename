@@ -1,7 +1,5 @@
 from os import DirEntry
 import re
-from sys import platform
-# from models.DirTraverse import WindowsPath, UnixPath
 
 
 class LocalFile:
@@ -12,10 +10,6 @@ class LocalFile:
 
     def path(self) -> str:
         path = self.entry.path
-        # if platform == "win32":
-        #     return WindowsPath(path).formattedPath().split("\\")[:-1]
-        # elif platform == "linux":
-        #     return UnixPath(path).formattedPath().split("/")[:-1]
         path = path.split("\\")[:-1]
         return "/".join(path)
 

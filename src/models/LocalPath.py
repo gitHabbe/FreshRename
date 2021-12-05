@@ -12,11 +12,11 @@ class LocalPath:
             __jsonData = json.load(f)
         return __jsonData
 
-    def path(self):
+    def path(self) -> str:
         cachedPath = self.__jsonData["last_path"]
         return cachedPath
 
-    def savePath(self, path: str):
+    def savePath(self, path: str) -> str:
         self.__jsonData["last_path"] = path
         with open(self.filePath, "w") as f:
             json.dump(self.__jsonData, f)

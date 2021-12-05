@@ -3,7 +3,7 @@ import re
 
 
 class FileRegex:
-    patterns = [r"[Ss](\d\d)[Ee](\d\d)", r"(\d?\d)[Xx](\d?\d)"]
+    patterns = [r"[Ss](\d?\d)[Ee](\d?\d)", r"(\d?\d)[Xx](\d?\d)"]
 
     def __init__(self, entry: DirEntry) -> None:
         self.__entry = entry
