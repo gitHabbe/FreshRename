@@ -2,7 +2,7 @@ import json
 
 
 class LocalPath:
-    filePath = "../cache.json"
+    filePath = "./private/cache.json"
 
     def __init__(self):
         self.__jsonData = self.readPath()

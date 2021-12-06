@@ -1,6 +1,6 @@
 from frontend.CommandLine.CommandLine import CommandLine
 from models.DirTraverse import DirTraverse
-from src.models.Rename import Rename
+from models.Rename import Rename
 
 
 class FreshRename:
