@@ -11,6 +11,18 @@ class CommandLine:
     __localPath = LocalPath()
     __requestShow = RequestShow()
 
+    def chooseShowName(self) -> str:
+        return self.__cli.text("TV-show search:").ask()
+
+    def confirmShow(self, showName) -> list:
+        showResponse = self.__requestShow.name(showName)
+        showName: str = showResponse['show']['name']
+        userConfirm: bool = self.__cli.confirm(f"Is '{showName}' correct TV-show?").ask()
+        if not userConfirm:
+            newShow = self.chooseShowName()
+            self.confirmShow(newShow)
+        return showResponse
+
     def confirmPath(self) -> bool:
         cachedPath: str = self.__localPath.path()
         print(f"Last path: {cachedPath}")
@@ -21,6 +33,9 @@ class CommandLine:
         newPath: str = self.__cli.text("Input new path:").ask()
         self.__localPath.savePath(newPath)
         return newPath
+
+    def requestShowData(self, showResponse) -> list:
+        return self.__requestShow.episodes(showResponse)
 
     def episodesPath(self):
         return self.__localPath.path()
@@ -34,21 +49,6 @@ class CommandLine:
         ).ask()
         namePatternClass = patterns.get(chosenPattern)
         return namePatternClass()
-
-    def chooseShowName(self) -> str:
-        return self.__cli.text("TV-show search:").ask()
-
-    def confirmShow(self, showName) -> list:
-        showResponse = self.__requestShow.name(showName)
-        showName: str = showResponse['show']['name']
-        userConfirm: bool = self.__cli.confirm(f"Is '{showName}' correct TV-show?").ask()
-        if not userConfirm:
-            newShow = self.chooseShowName()
-            self.confirmShow(newShow)
-        return showResponse
-
-    def requestShowData(self, showResponse) -> list:
-        return self.__requestShow.episodes(showResponse)
 
     def confirmRename(self, fileList: list) -> bool:
         if len(fileList) == 0:
