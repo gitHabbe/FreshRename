@@ -5,3 +5,4 @@ cache.json
 data.json
 __pycache__
 src/private
+changelog.config.js
