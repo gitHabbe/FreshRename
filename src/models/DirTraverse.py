@@ -26,7 +26,7 @@ class DirTraverse:
         entries = self.__entriesFromDir()
         for entry in entries:
             self.__isFolder(entry)
-            self.cache.addStore(entry)
+            self.cache.add_store(entry)
         entries.close()
 
     def __isFolder(self, entry: os.DirEntry):
