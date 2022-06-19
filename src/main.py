@@ -3,42 +3,41 @@ from frontend.Graphical.Graphical import Graphical
 from models.DirTraverse import DirTraverse
 from models.Rename import Rename
 from src.frontend.Graphical.Body import Body
-from src.frontend.Graphical.SearchForm import FormWrapper
+from src.frontend.Graphical.FormWrapper import FormWrapper
 
 
 class FreshRename:
     cli = CommandLine()
 
-    def runCommandLine(self):
-        showName = self.cli.chooseShowName()
-        showResponse = self.cli.confirmShow(showName)
-        isOldPath = self.cli.confirmPath()
-        if not isOldPath:
+    def run_command_line(self):
+        show_name = self.cli.chooseShowName()
+        show_response = self.cli.confirmShow(show_name)
+        is_old_path = self.cli.confirmPath()
+        if not is_old_path:
             self.cli.newPath()
-        episodes = self.cli.requestShowData(showResponse)
-        episodesPath = self.cli.episodesPath()
-        nameStrategy = self.cli.choosePattern()
-        dirTraverse = DirTraverse(episodesPath)
-        dirTraverse.buildCache()
-        rename = Rename(dirTraverse, episodes, nameStrategy)
+        episodes = self.cli.requestShowData(show_response)
+        episodes_path = self.cli.episodesPath()
+        name_strategy = self.cli.choosePattern()
+        dir_traverse = DirTraverse(episodes_path)
+        dir_traverse.buildCache()
+        rename = Rename(dir_traverse, episodes, name_strategy)
         rename.fillFileList()
         self.cli.listChanges(rename.fileList)
-        isConfirmed = self.cli.confirmRename(rename.fileList)
-        if isConfirmed:
+        is_confirmed = self.cli.confirmRename(rename.fileList)
+        if is_confirmed:
             rename.renameFiles()
         else:
             print("No changes made")
             exit()
 
     @staticmethod
-    def runGraphical():
+    def run_graphical():
         graphical = Graphical()
         body = Body(graphical.root)
-        formWrapper = FormWrapper(body.frame)
+        form_wrapper = FormWrapper(body.frame)
         graphical.loop()
 
 
 if __name__ == '__main__':
-    # print(platform)
-    FreshRename().runCommandLine()
-    # FreshRename().runGraphical()
+    # FreshRename().run_command_line()
+    FreshRename().run_graphical()
