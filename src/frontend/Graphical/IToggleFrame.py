@@ -1,4 +1,4 @@
-class ToggleFrame:
+class IToggleFrame:
     def build(self):
         raise NotImplementedError
 
