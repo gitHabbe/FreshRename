@@ -1,7 +1,7 @@
 import os
 import re
-from models.LocalFile import LocalFile
-from models.Regex import FileRegex
+from src.models.LocalFile import LocalFile
+from src.models.Regex import FileRegex
 
 
 class Cache:
@@ -18,10 +18,10 @@ class Cache:
     @staticmethod
     def __get_match(entry: os.DirEntry) -> re.Match:
         regex = FileRegex(entry)
-        match = regex.findMatch()
+        match = regex.find_match()
         return match
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         pretty = ""
         for key, value in self.store.items():
             pretty += f"{key}: {value.entry.name}\n"

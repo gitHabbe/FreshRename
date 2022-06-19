@@ -8,7 +8,7 @@ class Graphical:
         self.root.geometry("500x400")
         self.root.title("FreshRename")
         self.__center_frame()
-        self.__addExitEvent()
+        self.__add_exit_event()
 
     def __center_frame(self):
         window_width = self.root.winfo_reqwidth()
@@ -18,7 +18,7 @@ class Graphical:
         position_down = int(self.root.winfo_screenheight() / 2 - window_height / 2) - 200
         self.root.geometry(f"+{position_right}+{position_down}")
 
-    def __addExitEvent(self):
+    def __add_exit_event(self):
         self.root.bind("<Escape>", lambda x: self.root.destroy())
 
     def loop(self):

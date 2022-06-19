@@ -31,7 +31,7 @@ class CommandLine:
 
     def newPath(self) -> str:
         newPath: str = self.__cli.text("Input new path:").ask()
-        self.__localPath.savePath(newPath)
+        self.__localPath.save_path(newPath)
         return newPath
 
     def requestShowData(self, showResponse) -> list:

@@ -5,16 +5,16 @@ from src.models.RequestShow import RequestShow
 
 
 class FormWrapper:
-    showSearchForm = True
-    showConfirmForm = False
+    show_search_form = True
+    show_confirm_form = False
 
     def __init__(self, parent: Frame):
-        self.showName = ""
+        self.show_name = ""
         self.frame = Frame(parent)
         # self.searchForm = Frame(self.frame)
-        self.searchForm = SearchForm(self.frame)
-        self.searchForm.build()
-        self.confirmForm = Frame(self.frame)
+        self.search_form = SearchForm(self.frame)
+        self.search_form.build()
+        self.confirm_form = Frame(self.frame)
         self.frame.grid()
 
     # def buildSearchForm(self):
@@ -33,19 +33,19 @@ class FormWrapper:
     #
     #     self.searchForm.grid()
 
-    def buildConfirmForm(self):
-        showLabel = Label(self.confirmForm, text=self.showName)
-        showLabel.grid(row=0, column=0, padx=5)
+    def build_confirm_form(self):
+        show_label = Label(self.confirm_form, text=self.show_name)
+        show_label.grid(row=0, column=0, padx=5)
 
-        yesButton = Button(self.confirmForm, text="YES", bg="green", fg="white")
-        yesButton.grid(row=0, column=1)
-        yesButton.bind("<Button-1>", lambda x: self.confirmShow())
+        yes_button = Button(self.confirm_form, text="YES", bg="green", fg="white")
+        yes_button.grid(row=0, column=1)
+        yes_button.bind("<Button-1>", lambda x: self.confirm_show())
 
-        noButton = Button(self.confirmForm, text="NO", bg="red", fg="white")
-        noButton.grid(row=0, column=2)
-        noButton.bind("<Button-1>", lambda x: self.toggleConfirmForm())
+        no_button = Button(self.confirm_form, text="NO", bg="red", fg="white")
+        no_button.grid(row=0, column=2)
+        no_button.bind("<Button-1>", lambda x: self.toggle_confirm_form())
 
-        self.confirmForm.grid()
+        self.confirm_form.grid()
 
     # def requestShow(self, term: str):
     #     requester = RequestShow()
@@ -59,14 +59,14 @@ class FormWrapper:
     #         print("ERROR")
 
     @staticmethod
-    def confirmShow():
+    def confirm_show():
         print("Correct show")
 
-    def toggleSearchForm(self):
-        self.searchForm.grid_remove()
-        self.buildConfirmForm()
+    def toggle_search_form(self):
+        self.search_form.grid_remove()
+        self.build_confirm_form()
 
-    def toggleConfirmForm(self):
-        self.showName = ""
-        self.confirmForm.grid_remove()
+    def toggle_confirm_form(self):
+        self.show_name = ""
+        self.confirm_form.grid_remove()
         self.buildSearchForm()

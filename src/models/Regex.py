@@ -8,7 +8,7 @@ class FileRegex:
     def __init__(self, entry: DirEntry) -> None:
         self.__entry = entry
 
-    def findMatch(self) -> re.Match or None:
+    def find_match(self) -> re.Match or None:
         for pattern in self.patterns:
             match = re.search(pattern, self.__entry.name)
             if match is None:
