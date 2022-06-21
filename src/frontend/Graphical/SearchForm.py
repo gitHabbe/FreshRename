@@ -1,6 +1,6 @@
 from tkinter import StringVar, messagebox
 from tkinter.ttk import Entry, Label, Button, Frame
-from src.frontend.Graphical.IToggleFrame import IToggleFrame
+from src.frontend.Graphical.Interface.IToggleFrame import IToggleFrame
 from src.models.RequestShow import RequestShow
 
 

@@ -1,7 +1,7 @@
 from tkinter.ttk import Frame, Label, Button
 
 from src.frontend.Graphical import SearchForm
-from src.frontend.Graphical.IToggleFrame import IToggleFrame
+from src.frontend.Graphical.Interface.IToggleFrame import IToggleFrame
 
 
 class ConfirmForm(IToggleFrame):
