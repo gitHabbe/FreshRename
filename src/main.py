@@ -19,13 +19,13 @@ class FreshRename:
         episodes_path = self.cli.episodesPath()
         name_strategy = self.cli.choosePattern()
         dir_traverse = DirTraverse(episodes_path)
-        dir_traverse.buildCache()
+        dir_traverse.build_cache()
         rename = Rename(dir_traverse, episodes, name_strategy)
-        rename.fillFileList()
+        rename.fill_file_list()
         self.cli.listChanges(rename.fileList)
         is_confirmed = self.cli.confirmRename(rename.fileList)
         if is_confirmed:
-            rename.renameFiles()
+            rename.rename_files()
         else:
             print("No changes made")
             exit()

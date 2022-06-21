@@ -11,28 +11,28 @@ class DirTraverse:
         self.__path = os.path.realpath(root)
 
     @staticmethod
-    def __formatPath(path: str) -> str:
+    def __format_path(path: str) -> str:
         if platform == "win32":
-            return WindowsPath(path).formattedPath()
+            return WindowsPath(path).formatted_path()
         elif platform == "linux":
-            return UnixPath(path).formattedPath()
+            return UnixPath(path).formatted_path()
 
-    def __entriesFromDir(self):
-        formattedPath = self.__formatPath(self.__path)
-        return os.scandir(formattedPath)
+    def __entries_from_dir(self):
+        formatted_path = self.__format_path(self.__path)
+        return os.scandir(formatted_path)
 
     # noinspection PyTypeChecker
-    def buildCache(self) -> None:
-        entries = self.__entriesFromDir()
+    def build_cache(self) -> None:
+        entries = self.__entries_from_dir()
         for entry in entries:
-            self.__isFolder(entry)
+            self.__is_folder(entry)
             self.cache.add_store(entry)
         entries.close()
 
-    def __isFolder(self, entry: os.DirEntry):
+    def __is_folder(self, entry: os.DirEntry):
         if entry.is_dir():
             self.__path = entry.path
-            self.buildCache()
+            self.build_cache()
 
 
 class OSPath:
@@ -42,13 +42,13 @@ class OSPath:
 
 class WindowsPath(OSPath):
 
-    def formattedPath(self):
+    def formatted_path(self):
         return self.path if self.path[-1] == "\\" else self.path + "\\"
 
 
 class UnixPath(OSPath):
 
-    def formattedPath(self):
+    def formatted_path(self):
         if "\\" in self.path:
             command = subprocess.check_output(["wslpath", "-a", f"{self.path}"])
             self.path = command.decode("utf-8").strip()
