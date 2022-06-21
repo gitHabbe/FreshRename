@@ -11,20 +11,20 @@ class FreshRename:
     @staticmethod
     def run_command_line():
         command_line = CommandLine()
-        show_name = command_line.chooseShowName()
-        show_response = command_line.confirmShow(show_name)
-        is_old_path = command_line.confirmPath()
+        show_name = command_line.choose_show_name()
+        show_response = command_line.confirm_show(show_name)
+        is_old_path = command_line.confirm_path()
         if not is_old_path:
-            command_line.newPath()
-        episodes = command_line.requestShowData(show_response)
-        episodes_path = command_line.episodesPath()
-        name_strategy = command_line.choosePattern()
+            command_line.new_path()
+        episodes = command_line.request_show_data(show_response)
+        episodes_path = command_line.episodes_path()
+        name_strategy = command_line.choose_pattern()
         dir_traverse = DirTraverse(episodes_path)
         dir_traverse.build_cache()
         rename = Rename(dir_traverse, episodes, name_strategy)
         rename.fill_file_list()
-        command_line.listChanges(rename.fileList)
-        is_confirmed = command_line.confirmRename(rename.fileList)
+        command_line.list_changes(rename.fileList)
+        is_confirmed = command_line.confirm_rename(rename.fileList)
         if is_confirmed:
             rename.rename_files()
         else:
