@@ -1,9 +1,9 @@
 import questionary
 
-from models.LocalPath import LocalPath
-from models.RequestShow import RequestShow
-from models.namePatterns.NamePattern import NameStrategy
-from models.namePatterns.PatternSelector import patterns
+from src.models.LocalPath import LocalPath
+from src.models.RequestShow import RequestShow
+from src.models.namePatterns.NamePattern import NameStrategy
+from src.models.namePatterns.PatternSelector import patterns
 
 
 class CommandLine:
@@ -15,7 +15,7 @@ class CommandLine:
         return self.__cli.text("TV-show search:").ask()
 
     def confirm_show(self, show_name) -> list:
-        show_response = self.__requestShow.name(show_name)
+        show_response = self.__requestShow.name(show_name)[0]
         show_name: str = show_response['show']['name']
         user_confirm: bool = self.__cli.confirm(f"Is '{show_name}' correct TV-show?").ask()
         if not user_confirm:
@@ -24,7 +24,7 @@ class CommandLine:
         return show_response
 
     def confirm_path(self) -> bool:
-        cached_path: str = self.__localPath.path()
+        cached_path: str = self.__localPath.get_path()
         print(f"Last path: {cached_path}")
         same_path = "Use same path?"
         return self.__cli.confirm(same_path).ask()
@@ -38,7 +38,7 @@ class CommandLine:
         return self.__requestShow.episodes(show_response)
 
     def episodes_path(self):
-        return self.__localPath.path()
+        return self.__localPath.get_path()
 
     def choose_pattern(self) -> NameStrategy:
         pattern_options = list(patterns.keys())
@@ -57,7 +57,7 @@ class CommandLine:
         return self.__cli.confirm("Rename files?").ask()
 
     @staticmethod
-    def list_changes(file_list: list):
+    def list_changes(file_list: list) -> None:
         for fileItem in file_list:
             old = f"Old: {fileItem['oldName']}"
             new = f"New: {fileItem['newName']}"

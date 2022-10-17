@@ -33,7 +33,7 @@ class SearchForm(IToggleFrame):
     def request_show(self, term: str):
         requester = RequestShow()
         try:
-            tv_show = requester.name(term)
+            tv_show = requester.name(term)[0]
             self.show_name = tv_show["show"]["name"]
             self.close()
         except IndexError:

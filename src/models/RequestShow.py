@@ -2,12 +2,20 @@ import requests
 
 
 class RequestShow:
-    baseUrl = "https://api.tvmaze.com"
+    __base_url = "https://api.tvmaze.com"
+    __show_url = f"{__base_url}/search/shows?q="
+    __episodes_url = f"{__base_url}/shows/"
 
     def name(self, term: str):
-        res = requests.get(f"{self.baseUrl}/search/shows?q={term}")
-        return res.json()[0]
+        query = f"{self.__show_url}{term}"
+        return self.__fetch(query)
 
     def episodes(self, show):
-        res = requests.get(f"{self.baseUrl}/shows/{show['show']['id']}/episodes")
+        show_id = show['show']['id']
+        query = f"{self.__episodes_url}{show_id}/episodes"
+        return self.__fetch(query)
+
+    @staticmethod
+    def __fetch(query: str):
+        res = requests.get(query)
         return res.json()
