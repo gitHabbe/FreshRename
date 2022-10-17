@@ -8,6 +8,7 @@ requests = "*"
 coverage = "*"
 questionary = "*"
 tk = "*"
+dataclasses = "*"
 
 [dev-packages]
 
