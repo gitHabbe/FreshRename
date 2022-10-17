@@ -1,16 +1,17 @@
+from dataclasses import dataclass
 from os import DirEntry
-import re
+from re import Pattern, Match, search
+from typing import ClassVar
 
 
+@dataclass
 class FileRegex:
-    patterns = [r"[Ss](\d?\d)[Ee](\d?\d)", r"(\d?\d)[Xx](\d?\d)"]
+    entry: DirEntry
+    __patterns: ClassVar[list[Pattern[str]]] = [r"[Ss](\d?\d)[Ee](\d?\d)", r"(\d?\d)[Xx](\d?\d)"]
 
-    def __init__(self, entry: DirEntry) -> None:
-        self.__entry = entry
-
-    def find_match(self) -> re.Match or None:
-        for pattern in self.patterns:
-            match = re.search(pattern, self.__entry.name)
+    def find_match(self) -> Match or None:
+        for pattern in self.__patterns:
+            match = search(pattern, self.entry.name)
             if match is None:
                 continue
             if len(match.groups()) >= 2:
