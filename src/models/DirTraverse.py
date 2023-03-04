@@ -27,9 +27,9 @@ class DirTraverse:
     @staticmethod
     def __format_path(path: str) -> str:
         if platform == "win32":
-            return WindowsPath(path).formatted_path()
+            return WindowsPath(path).add_path_ending()
         elif platform == "linux":
-            return UnixPath(path).formatted_path()
+            return UnixPath(path).add_path_ending()
 
     def __is_folder(self, entry: os.DirEntry):
         if entry.is_dir():

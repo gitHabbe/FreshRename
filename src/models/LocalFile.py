@@ -1,12 +1,15 @@
+import os
 from os import DirEntry
 from re import Match
 from dataclasses import dataclass
+from sys import platform
+
+from models.OSPath import WindowsPath, UnixPath
 
 
 @dataclass
 class LocalFile:
     entry: DirEntry
-    match: Match
 
     @property
     def uid(self) -> list:
@@ -17,6 +20,10 @@ class LocalFile:
         return [ season, episode, file_type ]
 
     def path(self) -> str:
-        path = self.entry.path
-        path = path.split("\\")[:-1]
-        return "/".join(path)
+        path = os.sep.join(self.entry.path.split(os.sep)[:-1])
+        if platform == "win32":
+            path_formatter = WindowsPath(path)
+        elif platform == "linux":
+            path_formatter = UnixPath(path)
+        path_formatter.change_separators()
+        return path_formatter.add_path_ending()
