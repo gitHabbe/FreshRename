@@ -2,7 +2,7 @@ import os
 from dataclasses import dataclass
 
 from models.DirTraverse import DirTraverse
-from models.LocalFile import LocalFile
+from models.LocalFileOriginal import LocalFileOriginal
 from models.namePatterns.NamePattern import NameStrategy
 
 
@@ -13,7 +13,7 @@ class Rename:
     __name_strategy: NameStrategy
     fileList = []
 
-    def __file_item(self, local_file: LocalFile, episode) -> dict:
+    def __file_item(self, local_file: LocalFileOriginal, episode) -> dict:
         self.__set_strategy(local_file)
         file_data = {}
         file_type = local_file.entry.name.split(".")[-1]
@@ -25,12 +25,12 @@ class Rename:
         file_data["newFile"] = f"{newFilePath}{file_data['newName']}"
         return file_data
 
-    def __set_strategy(self, local_file: LocalFile):
+    def __set_strategy(self, local_file: LocalFileOriginal):
         season_num, episode_num, _ = local_file.uid
         self.__name_strategy.season = season_num
         self.__name_strategy.episode = episode_num
 
-    def __append_file_list(self, local_file: LocalFile, episode) -> None:
+    def __append_file_list(self, local_file: LocalFileOriginal, episode) -> None:
         file_item = self.__file_item(local_file, episode)
         if file_item["oldName"] == file_item["newName"]:
             return

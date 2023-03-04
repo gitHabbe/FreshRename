@@ -1,6 +1,6 @@
 import os
 import re
-from src.models.LocalFile import LocalFile
+from src.models.LocalFileOriginal import LocalFileOriginal
 from src.models.Regex import FileRegex
 
 
@@ -11,7 +11,7 @@ class Cache:
         match = self.__get_match(entry)
         if match is None:
             return
-        local_file = LocalFile(entry)
+        local_file = LocalFileOriginal(entry)
         uid = "".join(local_file.uid)
         self.store[uid] = local_file
 

@@ -8,7 +8,7 @@ from models.OSPath import WindowsPath, UnixPath
 
 
 @dataclass
-class LocalFile:
+class LocalFileOriginal:
     entry: DirEntry
 
     @property
