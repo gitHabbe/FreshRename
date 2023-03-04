@@ -1,9 +1,9 @@
 import questionary
 
-from src.models.LocalPath import LocalPath
-from src.models.RequestShow import RequestShow
-from src.models.namePatterns.NamePattern import NameStrategy
-from src.models.namePatterns.PatternSelector import patterns
+from models.LocalPath import LocalPath
+from models.RequestShow import RequestShow
+from models.namePatterns.NamePattern import NameStrategy
+from models.namePatterns.PatternSelector import patterns
 
 
 class CommandLine:
@@ -38,7 +38,7 @@ class CommandLine:
         return self.__requestShow.episodes(show_response)
 
     def episodes_path(self):
-        return self.__localPath.get_path()
+        return self.__localPath.get_path()["last_path"]
 
     def choose_pattern(self) -> NameStrategy:
         pattern_options = list(patterns.keys())

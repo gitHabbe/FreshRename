@@ -9,7 +9,7 @@ class LocalPath:
 
     def get_path(self):
         with open(self.file_path, "r") as file:
-            return json.load(file)["last_path"]
+            return json.load(file)
 
     def save_path(self, path: str):
         current_path = self.get_path()
