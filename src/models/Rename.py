@@ -20,7 +20,9 @@ class Rename:
         file_data["oldName"] = local_file.match.string
         file_data["oldFile"] = local_file.entry.path
         file_data["newName"] = f"{self.__name_strategy.name()}{episode['name']}.{file_type}"
-        file_data["newFile"] = f"{local_file.path()}/{file_data['newName']}"
+        file_data["newName"] = file_data["newName"].replace(":", "-")
+        newFilePath = local_file.path()
+        file_data["newFile"] = f"{newFilePath}{file_data['newName']}"
         return file_data
 
     def __set_strategy(self, local_file: LocalFile):
