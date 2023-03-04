@@ -25,5 +25,4 @@ class Cache:
         pretty = ""
         for key, value in self.store.items():
             pretty += f"{key}: {value.entry.name}\n"
-
         return pretty

@@ -7,4 +7,3 @@ class PrintColor:
     @staticmethod
     def green(data: str):
         print(f"\033[92m{data}\033[0m")
-
