@@ -48,7 +48,9 @@ class Rename:
 
     def rename_files(self):
         for singleFile in self.fileList:
-            os.rename(singleFile["oldFile"], singleFile["newFile"])
+            old_file = singleFile["oldFile"]
+            new_file = singleFile["newFile"]
+            os.rename(old_file, new_file)
 
     @staticmethod
     def __uid(episode) -> list:
