@@ -1,10 +1,11 @@
 from abc import abstractmethod, ABC
+from dataclasses import dataclass
 
 
+@dataclass
 class NameBase:
-    def __init__(self, season="", episode=""):
-        self.season = season
-        self.episode = episode
+    season: str = ""
+    episode: str = ""
 
 
 class NameStrategy(ABC, NameBase):
