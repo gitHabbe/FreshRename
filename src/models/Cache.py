@@ -11,7 +11,7 @@ class Cache:
         match = self.__get_match(entry)
         if match is None:
             return
-        local_file = LocalFileOriginal(entry)
+        local_file = LocalFileOriginal(entry, match)
         uid = "".join(local_file.uid)
         self.store[uid] = local_file
 

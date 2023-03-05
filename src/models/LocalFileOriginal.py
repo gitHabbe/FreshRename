@@ -1,6 +1,7 @@
 import os
 from os import DirEntry
 from re import Match
+
 from dataclasses import dataclass
 from sys import platform
 
@@ -10,11 +11,12 @@ from models.OSPath import WindowsPath, UnixPath
 @dataclass
 class LocalFileOriginal:
     entry: DirEntry
+    regexMatch: Match
 
     @property
     def uid(self) -> list:
-        season = self.match.group(1).zfill(2)
-        episode = self.match.group(2).zfill(2)
+        season = self.regexMatch.group(1).zfill(2)
+        episode = self.regexMatch.group(2).zfill(2)
         file_type = self.entry.name.split(".")[-1]
         file_type = file_type if file_type == "srt" else ""
         return [season, episode, file_type]

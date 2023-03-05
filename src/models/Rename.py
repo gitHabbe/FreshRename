@@ -17,7 +17,7 @@ class Rename:
         self.__set_strategy(local_file)
         file_data = {}
         file_type = local_file.entry.name.split(".")[-1]
-        file_data["oldName"] = local_file.match.string
+        file_data["oldName"] = local_file.regexMatch.string
         file_data["oldFile"] = local_file.entry.path
         file_data["newName"] = f"{self.__name_strategy.name()}{episode['name']}.{file_type}"
         file_data["newName"] = file_data["newName"].replace(":", "-")
