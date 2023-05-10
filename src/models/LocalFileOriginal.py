@@ -1,17 +1,31 @@
-import os
+import re
 from os import DirEntry
-from re import Match
+from pathlib import PosixPath, WindowsPath
 
 from dataclasses import dataclass
 from sys import platform
 
-from models.OSPath import WindowsPath, UnixPath
+
+class PathPicker:
+    path_dict = {
+        "win32": WindowsPath,
+        "linux": PosixPath,
+    }
+
+    def __init__(self, path: str):
+        self.pather = self.path_dict.get(platform)(path)
+
+    def full_path(self) -> WindowsPath | PosixPath:
+        return self.pather.absolute()
+
+    def file_name(self) -> str:
+        return self.pather.name
 
 
 @dataclass
 class LocalFileOriginal:
     entry: DirEntry
-    regexMatch: Match
+    regexMatch: re.Match
 
     @property
     def uid(self) -> list:
@@ -21,11 +35,7 @@ class LocalFileOriginal:
         file_type = file_type if file_type == "srt" else ""
         return [season, episode, file_type]
 
-    def path(self) -> str:
-        path = os.sep.join(self.entry.path.split(os.sep)[:-1])
-        if platform == "win32":
-            path_formatter = WindowsPath(path)
-        elif platform == "linux":
-            path_formatter = UnixPath(path)
-        path_formatter.change_separators()
-        return path_formatter.add_path_ending()
+    @property
+    def path(self) -> WindowsPath | PosixPath:
+        path_picker = PathPicker(self.entry.path)
+        return path_picker.full_path()

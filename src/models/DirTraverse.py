@@ -1,9 +1,8 @@
 import os
 from sys import platform
-from typing import AnyStr
 
 from models.Cache import Cache
-from models.OSPath import WindowsPath, UnixPath
+from models.OSPath.OSPath import WindowsPath, UnixPath
 
 
 class DirTraverse:
