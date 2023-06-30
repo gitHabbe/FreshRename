@@ -21,8 +21,8 @@ class Rename:
         file_data["oldFile"] = local_file.entry.path
         file_data["newName"] = f"{self.__name_strategy.name()}{episode['name']}.{file_type}"
         file_data["newName"] = file_data["newName"].replace(":", "-")
-        newFilePath = local_file.path()
-        file_data["newFile"] = f"{newFilePath}{file_data['newName']}"
+        old_path = local_file.path.parents[0]
+        file_data["newFile"] = f"{old_path}{local_file.separator()}{file_data['newName']}"
         return file_data
 
     def __set_strategy(self, local_file: LocalFileOriginal):

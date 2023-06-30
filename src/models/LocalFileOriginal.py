@@ -1,3 +1,4 @@
+import os
 import re
 from os import DirEntry
 from pathlib import PosixPath, WindowsPath
@@ -39,3 +40,8 @@ class LocalFileOriginal:
     def path(self) -> WindowsPath | PosixPath:
         path_picker = PathPicker(self.entry.path)
         return path_picker.full_path()
+
+    @staticmethod
+    def separator():
+        return os.sep
+
