@@ -1,9 +1,9 @@
 from frontend.CommandLine.CommandLine import CommandLine
-from frontend.Graphical.Graphical import Graphical
+# from frontend.Graphical.Graphical import Graphical
 from models.DirTraverse import DirTraverse
 from models.Rename import Rename
-from src.frontend.Graphical.Body import Body
-from src.frontend.Graphical.FormWrapper import FormWrapper
+# from src.frontend.Graphical.Body import Body
+# from src.frontend.Graphical.FormWrapper import FormWrapper
 
 
 class FreshRename:
