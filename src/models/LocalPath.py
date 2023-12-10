@@ -1,11 +1,13 @@
 import json
+import os
 from dataclasses import dataclass
 from typing import ClassVar
 
 
 @dataclass
 class LocalPath:
-    file_path: ClassVar[str] = "./private/cache.json"
+    ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+    file_path: ClassVar[str] = f"{ROOT_DIR}/../private/cache.json"
 
     def get_path(self):
         with open(self.file_path, "r") as file:
