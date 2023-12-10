@@ -10,8 +10,8 @@ class RequestShow:
         query = f"{self.__show_url}{term}"
         return self.__fetch(query)
 
-    def episodes(self, show):
-        show_id = show['show']['id']
+    def episodes(self, tv_show):
+        show_id = tv_show['show']['id']
         query = f"{self.__episodes_url}{show_id}/episodes"
         return self.__fetch(query)
 
