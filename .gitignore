@@ -9,3 +9,5 @@ src/private
 changelog.config.js
 test/RequestShowData.json
 test/TestCommandLine.test_init.approved.txt
+test/TestCommandLine.test_tv_show_entourage.approved.txt
+test/TestCommandLine.test_tv_show_invincible.approved.txt
