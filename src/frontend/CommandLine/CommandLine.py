@@ -1,9 +1,6 @@
-import questionary
-
 from models.DirTraverse import DirTraverse
 from models.LocalPath import LocalPath
 from models.Rename import Rename
-from models.RequestShow import RequestShow
 from models.namePatterns.NamePattern import NameStrategy
 from models.namePatterns.PatternSelector import patterns
 
