@@ -9,12 +9,12 @@ from models.namePatterns.PatternSelector import patterns
 
 
 class CommandLine:
-    __localPath = LocalPath()
-    test_data = []
 
     def __init__(self, request_show, questionary_library):
         self.__request_show = request_show
         self.__questionary = questionary_library
+        self.test_data = []
+        self.__localPath = LocalPath()
 
     def run(self):
         show_name = self.__choose_show_name()

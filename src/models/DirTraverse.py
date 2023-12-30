@@ -6,10 +6,10 @@ from models.OSPath.OSPath import WindowsPath, UnixPath
 
 
 class DirTraverse:
-    cache = Cache()
 
     def __init__(self, root: str) -> None:
         self.__path = os.path.realpath(root)
+        self.cache = Cache()
 
     # noinspection PyTypeChecker
     def build_cache(self) -> None:

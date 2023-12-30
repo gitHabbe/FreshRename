@@ -5,7 +5,8 @@ from src.models.Regex import FileRegex
 
 
 class Cache:
-    store = {}
+    def __init__(self):
+        self.store = {}
 
     def add_store(self, entry: os.DirEntry) -> None:
         match = self.__get_match(entry)
