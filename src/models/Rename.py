@@ -1,5 +1,5 @@
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from models.DirTraverse import DirTraverse
 from models.LocalFileOriginal import LocalFileOriginal
@@ -11,7 +11,7 @@ class Rename:
     __dir_traverse: DirTraverse
     __json_data: list
     __name_strategy: NameStrategy
-    fileList = []
+    fileList: list = field(default_factory=list)
 
     def __file_item(self, local_file: LocalFileOriginal, episode) -> dict:
         self.__set_strategy(local_file)
