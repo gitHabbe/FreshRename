@@ -1,27 +1,54 @@
 import json
 import unittest
+from unittest.mock import MagicMock
 
-import questionary
 from approvaltests.approvals import verify
 
 from frontend.CommandLine.CommandLine import CommandLine
+from models.UserInput import UserInput
 from models.RequestShow import RequestShow
 
 
 class TestCommandLine(unittest.TestCase):
-    def setUp(self):
-        self.mock_request_show_adapter = RequestShowAdapter(RequestShow())
 
     def test_tv_show_entourage(self):
-        mock_questionary_adapter = QuestionaryAdapter(questionary, "Entourage", "C:\Entourage")
-        command_line = CommandLine(self.mock_request_show_adapter, mock_questionary_adapter)
-        command_line.run()
-        episode_list_data_as_string = self.__format_dict_list(command_line.test_data)
-        verify(episode_list_data_as_string)
+        user_input = UserInput()
+        tv_show_name = "Entourage"
+        user_input.ask_tv_show_name = MagicMock(return_value=tv_show_name)
+        user_input.confirm_tv_show_name = MagicMock(return_value=True)
+        user_input.ask_tv_show_path = MagicMock(return_value="C:\Entourage")
+        user_input.confirm_tv_show_path = MagicMock(side_effect=[False, True])
+        user_input.choose_name_strategy = MagicMock(return_value="S01E01 - Episode name here")
+        user_input.confirm_tv_show_rename = MagicMock(return_value=False)
+
+        request_show = RequestShow()
+        request_show.name = MagicMock(return_value=[{"show": {"id": 559, "name": tv_show_name}}])
+        with open("../test/RequestShowData.json", "r") as tv_show_mock:
+            load = json.load(tv_show_mock)[tv_show_name]
+            request_show.episodes = MagicMock(return_value=load)
+
+        self.__verify_tv_show(user_input, request_show)
 
     def test_tv_show_invincible(self):
-        mock_questionary_adapter = QuestionaryAdapter(questionary, "Invincible", "C:\Invincible.2021.S01")
-        command_line = CommandLine(self.mock_request_show_adapter, mock_questionary_adapter)
+        user_input = UserInput()
+        tv_show_name = "Invincible"
+        user_input.ask_tv_show_name = MagicMock(return_value=tv_show_name)
+        user_input.confirm_tv_show_name = MagicMock(return_value=True)
+        user_input.ask_tv_show_path = MagicMock(return_value="C:\Invincible.2021.S01")
+        user_input.confirm_tv_show_path = MagicMock(side_effect=[False, True])
+        user_input.choose_name_strategy = MagicMock(return_value="S01E01 - Episode name here")
+        user_input.confirm_tv_show_rename = MagicMock(return_value=False)
+
+        request_show = RequestShow()
+        request_show.name = MagicMock(return_value=[{"show": {"id": 2013997, "name": tv_show_name}}])
+        with open("../test/RequestShowData.json", "r") as tv_show_mock:
+            load = json.load(tv_show_mock)[tv_show_name]
+            request_show.episodes = MagicMock(return_value=load)
+
+        self.__verify_tv_show(user_input, request_show)
+
+    def __verify_tv_show(self, user_input, request_show):
+        command_line = CommandLine(user_input, request_show)
         command_line.run()
         episode_list_data_as_string = self.__format_dict_list(command_line.test_data)
         verify(episode_list_data_as_string)
@@ -43,74 +70,3 @@ class TestCommandLine(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-class RequestShowAdapter:
-    def __init__(self, request_show: RequestShow):
-        self.request_show = request_show
-
-    @staticmethod
-    def name(tv_show_term: str) -> list:
-        tv_show_list = [
-            {
-                "show": {
-                    "id": 2013997,
-                    "name": "Invincible",
-                }
-            },
-            {
-                "show": {
-                    "id": 559,
-                    "name": "Entourage",
-                }
-            }
-        ]
-        for tv_show in tv_show_list:
-            if tv_show["show"]["name"] == tv_show_term:
-                return [tv_show]
-        return tv_show_list
-
-    @staticmethod
-    def episodes(tv_show) -> list:
-        with open("../test/RequestShowData.json", "r") as tv_show_mock:
-            tv_show_dict = json.load(tv_show_mock)
-            for tv_show_name in tv_show_dict:
-                if tv_show_name == tv_show["show"]["name"]:
-                    return tv_show_dict[tv_show_name]
-            return tv_show_dict["Invincible"]
-
-
-class QuestionaryAdapter:
-
-    def __init__(self, questionary_library, tv_show_name, tv_show_path="C:\Invincible.2021.S01"):
-        self.questionary = questionary_library
-        self.tv_show_name = tv_show_name
-        self.tv_show_path = tv_show_path
-        self.answer = ""
-
-    def ask(self):
-        return self.answer
-
-    def text(self, message):
-        if message == "TV-show search:":
-            self.answer = self.tv_show_name
-        elif message == "Input new path:":
-            self.answer = self.tv_show_path
-
-        return self
-
-    def confirm(self, message):
-        if message == f"Is '{self.tv_show_name}' correct TV-show?":
-            self.answer = True
-        elif message == "Use same path?":
-            self.answer = False
-        elif message == "Rename files?":
-            self.answer = False
-
-        return self
-
-    def select(self, message, choices, pointer):
-        if message == "Select pattern":
-            self.answer = choices[0]
-
-        return self
