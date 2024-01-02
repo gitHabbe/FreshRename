@@ -7,7 +7,7 @@ from models.namePatterns.PatternSelector import patterns
 
 class CommandLine:
 
-    def __init__(self, request_show, questionary_library):
+    def __init__(self, questionary_library, request_show):
         self.__request_show = request_show
         self.__questionary = questionary_library
         self.test_data = []
@@ -27,36 +27,34 @@ class CommandLine:
         rename = Rename(dir_traverse, episodes, name_strategy)
         rename.fill_file_list()
         self.__list_changes(rename.fileList)
-        # is_confirmed = self.__confirm_rename(rename.fileList)
-        is_confirmed = False
+        is_confirmed = self.__confirm_rename(rename.fileList)
         if is_confirmed:
             rename.rename_files()
         else:
             self.test_data = rename.fileList
             print("No changes made")
             return
-            exit()
 
     def __choose_show_name(self) -> str:
-        return self.__questionary.text("TV-show search:").ask()
+        return self.__questionary.ask_tv_show_name()
 
     def __confirm_path(self) -> bool:
         cached_path: str = self.__localPath.get_path()
         print(f"Last path: {cached_path}")
         same_path = "Use same path?"
-        return self.__questionary.confirm(same_path).ask()
+        return self.__questionary.confirm_tv_show_path(same_path)
 
     def __confirm_show(self, show_name) -> list:
         show_response = self.__request_show.name(show_name)[0]
         show_name: str = show_response['show']['name']
-        user_confirm: bool = self.__questionary.confirm(f"Is '{show_name}' correct TV-show?").ask()
+        user_confirm: bool = self.__questionary.confirm_tv_show_name(show_name)
         if not user_confirm:
             new_show = self.__choose_show_name()
             self.__confirm_show(new_show)
         return show_response
 
     def __new_path(self) -> str:
-        new_path: str = self.__questionary.text("Input new path:").ask()
+        new_path: str = self.__questionary.ask_tv_show_path()
         self.__localPath.save_path(new_path)
         return new_path
 
@@ -69,11 +67,7 @@ class CommandLine:
 
     def __choose_pattern(self) -> NameStrategy:
         pattern_options = list(patterns.keys())
-        chosen_pattern: str = self.__questionary.select(
-            message="Select pattern",
-            choices=pattern_options,
-            pointer="→"
-        ).ask()
+        chosen_pattern: str = self.__questionary.choose_name_strategy(pattern_options)
         name_pattern_class = patterns.get(chosen_pattern)
         return name_pattern_class()
 
@@ -81,7 +75,7 @@ class CommandLine:
         if len(file_list) == 0:
             print("\033[91m" + "No changes found" + "\033[0;0m")
             return False
-        return self.__questionary.confirm("Rename files?").ask()
+        return self.__questionary.confirm_tv_show_rename()
 
     @staticmethod
     def __list_changes(file_list: list) -> None:
