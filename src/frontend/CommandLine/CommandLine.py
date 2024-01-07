@@ -2,7 +2,7 @@ import json
 from typing import Type
 
 from models.DirTraverse import DirTraverse
-from models.LocalPath import LocalPath
+from models.TvShowRootPath import TvShowRootPath
 from models.Rename import Rename
 from models.RequestShow import RequestShow
 from models.UserInput import UserInput
@@ -16,7 +16,7 @@ class CommandLine:
         self.__request_show = request_show
         self.__questionary = questionary_library
         self.test_data = []
-        self.__localPath = LocalPath()
+        self.__tv_show_root_path = TvShowRootPath()
 
     def run(self):
         show_name: str = self.__questionary.ask_tv_show_name()
@@ -50,18 +50,18 @@ class CommandLine:
         return show_response
 
     def __confirm_path(self) -> bool:
-        cached_path: str = self.__localPath.get_path()
+        cached_path: str = self.__tv_show_root_path.get_path()
         print(f"Last path: {cached_path}")
         same_path = "Use same path?"
         return self.__questionary.confirm_tv_show_path(same_path)
 
     def __new_path(self) -> str:
         new_path: str = self.__questionary.ask_tv_show_path()
-        self.__localPath.save_path(new_path)
+        self.__tv_show_root_path.save_path(new_path)
         return new_path
 
     def __episodes_path(self) -> str:
-        return self.__localPath.get_path()["last_path"]
+        return self.__tv_show_root_path.get_path()["last_path"]
 
     def __choose_pattern(self) -> NameStrategy:
         pattern_options = list(patterns.keys())

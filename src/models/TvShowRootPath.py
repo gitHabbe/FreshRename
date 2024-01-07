@@ -5,7 +5,7 @@ from typing import ClassVar
 
 
 @dataclass
-class LocalPath:
+class TvShowRootPath:
     ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
     file_path: ClassVar[str] = f"{ROOT_DIR}/../private/cache.json"
 
