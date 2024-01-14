@@ -6,7 +6,7 @@ from typing import ClassVar
 
 @dataclass
 class TvShowRootPath:
-    __ROOT_DIR = dirname(abspath(__file__))
+    __ROOT_DIR: str = dirname(abspath(__file__))
     __path: ClassVar[str] = f"{__ROOT_DIR}/../private/cache.json"
 
     def get_path(self):
