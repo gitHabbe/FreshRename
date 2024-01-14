@@ -7,22 +7,6 @@ from dataclasses import dataclass
 from sys import platform
 
 
-class PathPicker:
-    path_dict = {
-        "win32": WindowsPath,
-        "linux": PosixPath,
-    }
-
-    def __init__(self, path: str):
-        self.pather = self.path_dict.get(platform)(path)
-
-    def full_path(self) -> WindowsPath | PosixPath:
-        return self.pather.absolute()
-
-    def file_name(self) -> str:
-        return self.pather.name
-
-
 @dataclass
 class LocalFileOriginal:
     dir_entry: DirEntry
@@ -39,9 +23,27 @@ class LocalFileOriginal:
     @property
     def path(self) -> WindowsPath | PosixPath:
         path_picker = PathPicker(self.dir_entry.path)
-        return path_picker.full_path()
+        return path_picker.full_path
 
     @staticmethod
     def separator():
         return os.sep
+
+
+class PathPicker:
+    path_dict = {
+        "win32": WindowsPath,
+        "linux": PosixPath,
+    }
+
+    def __init__(self, path: str):
+        self.file_path = self.path_dict.get(platform)(path)
+
+    @property
+    def full_path(self) -> WindowsPath | PosixPath:
+        return self.file_path.absolute()
+
+    @property
+    def file_name(self) -> str:
+        return self.file_path.name
 
