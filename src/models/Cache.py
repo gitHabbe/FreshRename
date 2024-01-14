@@ -1,12 +1,14 @@
 import os
 import re
+from dataclasses import dataclass, field
+
 from src.models.LocalFileOriginal import LocalFileOriginal
 from src.models.Regex import FileRegex
 
 
+@dataclass
 class Cache:
-    def __init__(self):
-        self.store = {}
+    store: dict = field(default_factory=dict)
 
     def add_store(self, entry: os.DirEntry) -> None:
         match = self.__get_match(entry)
