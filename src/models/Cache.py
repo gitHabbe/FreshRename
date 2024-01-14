@@ -21,11 +21,10 @@ class Cache:
     @staticmethod
     def __get_match(entry: DirEntry) -> re.Match:
         regex = FileRegex(entry)
-        match = regex.find_match()
-        return match
+        return regex.find_match()
 
     def __repr__(self) -> str:
         pretty = ""
         for key, value in self.store.items():
-            pretty += f"{key}: {value.entry.name}\n"
+            pretty += f"{key}: {value.dir_entry.name}\n"
         return pretty
