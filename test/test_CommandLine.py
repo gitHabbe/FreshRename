@@ -1,10 +1,12 @@
 import json
+import os
 import unittest
 from unittest.mock import MagicMock
 
 from approvaltests.approvals import verify
 
 from frontend.CommandLine.CommandLine import CommandLine
+from main import OSAction
 from models.UserInput import UserInput
 from models.RequestShow import RequestShow
 
@@ -48,7 +50,7 @@ class TestCommandLine(unittest.TestCase):
         self.__verify_tv_show(user_input, request_show)
 
     def __verify_tv_show(self, user_input, request_show):
-        command_line = CommandLine(user_input, request_show)
+        command_line = CommandLine(user_input, request_show, OSAction(os))
         command_line.run()
         episode_list_data_as_string = self.__format_dict_list(command_line.test_data)
         verify(episode_list_data_as_string)

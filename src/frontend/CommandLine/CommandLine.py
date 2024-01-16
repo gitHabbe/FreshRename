@@ -1,6 +1,7 @@
 import json
 from typing import Type
 
+from main import OSAction
 from models.DirTraverse import DirTraverse
 from models.TvShowRootPath import TvShowRootPath
 from models.Rename import Rename
@@ -12,9 +13,10 @@ from models.namePatterns.PatternSelector import patterns
 
 class CommandLine:
 
-    def __init__(self, questionary_library: UserInput, request_show: RequestShow):
+    def __init__(self, questionary_library: UserInput, request_show: RequestShow, os_action: OSAction):
         self.__request_show = request_show
         self.__questionary = questionary_library
+        self.__os = os_action
         self.test_data = []
         self.__tv_show_root_path = TvShowRootPath()
 
