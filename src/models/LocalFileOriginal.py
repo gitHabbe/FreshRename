@@ -1,9 +1,7 @@
 import os
-import re
-from os import DirEntry
-from pathlib import PosixPath, WindowsPath
-
 from dataclasses import dataclass
+from pathlib import PosixPath, WindowsPath
+from re import Match
 from sys import platform
 
 from models.LocalFileEntry import LocalFileEntry
@@ -11,8 +9,8 @@ from models.LocalFileEntry import LocalFileEntry
 
 @dataclass
 class LocalFileOriginal:
-    regex_match: re.Match
     dir_entry: LocalFileEntry
+    regex_match: Match
 
     @property
     def uid(self) -> list:
@@ -48,4 +46,3 @@ class PathPicker:
     @property
     def file_name(self) -> str:
         return self.file_path.name
-

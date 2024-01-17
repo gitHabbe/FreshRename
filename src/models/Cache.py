@@ -1,4 +1,4 @@
-import re
+from re import Match
 from dataclasses import dataclass, field
 
 from models import LocalFileEntry

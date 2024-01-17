@@ -1,4 +1,5 @@
 import os
+from os import DirEntry
 from sys import platform
 
 from models.Cache import Cache
@@ -33,7 +34,7 @@ class DirTraverse:
         elif platform == "linux":
             return UnixPath(path).add_path_ending()
 
-    def __is_folder(self, entry: os.DirEntry):
+    def __is_folder(self, entry: DirEntry):
         if entry.is_dir():
             self.__path = entry.path
             self.build_cache(self.__path)
