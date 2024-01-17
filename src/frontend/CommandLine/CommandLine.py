@@ -16,7 +16,7 @@ class CommandLine:
     def __init__(self, questionary_library: UserInput, request_show: RequestShow, os_action: OSAction):
         self.__request_show = request_show
         self.__questionary = questionary_library
-        self.__os = os_action
+        self.__os_action = os_action
         self.test_data = []
         self.__tv_show_root_path = TvShowRootPath()
 
@@ -29,8 +29,8 @@ class CommandLine:
         episodes: json = self.__request_show.episodes(show_response)
         episodes_path: str = self.__episodes_path()
         name_strategy: NameStrategy = self.__choose_pattern()
-        dir_traverse = self.__os.dir_traverse
-        self.__os.build_cache(episodes_path)
+        dir_traverse = self.__os_action.dir_traverse
+        self.__os_action.build_cache(episodes_path)
         rename = Rename(dir_traverse, episodes, name_strategy)
         rename.fill_file_list()
         self.__list_changes(rename.fileList)
