@@ -8,7 +8,7 @@ from models.UserInput import UserInput
 
 
 def main():
-    dir_traverse = DirTraverse("")
+    dir_traverse = DirTraverse()
     os_operations = OSAction(os, dir_traverse)
 
     request_show = RequestShow()

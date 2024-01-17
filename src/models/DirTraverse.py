@@ -7,12 +7,13 @@ from models.OSPath.OSPath import WindowsPath, UnixPath
 
 class DirTraverse:
 
-    def __init__(self, root: str) -> None:
-        self.__path = os.path.realpath(root)
+    def __init__(self) -> None:
+        self.__path = ""
         self.cache = Cache()
 
     # noinspection PyTypeChecker
-    def build_cache(self) -> None:
+    def build_cache(self, new_path) -> None:
+        self.__path = os.path.realpath(new_path)
         entries = self.__entries_from_dir()
         for entry in entries:
             self.__is_folder(entry)
@@ -33,4 +34,4 @@ class DirTraverse:
     def __is_folder(self, entry: os.DirEntry):
         if entry.is_dir():
             self.__path = entry.path
-            self.build_cache()
+            self.build_cache(self.__path)
