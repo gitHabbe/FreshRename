@@ -1,7 +1,7 @@
 import json
 from typing import Type
 
-from main import OSAction
+from OSAction import OSAction
 from models.DirTraverse import DirTraverse
 from models.TvShowRootPath import TvShowRootPath
 from models.Rename import Rename
@@ -29,8 +29,8 @@ class CommandLine:
         episodes: json = self.__request_show.episodes(show_response)
         episodes_path: str = self.__episodes_path()
         name_strategy: NameStrategy = self.__choose_pattern()
-        dir_traverse = DirTraverse(episodes_path)
-        dir_traverse.build_cache()
+        dir_traverse = self.__os.dir_traverse
+        self.__os.build_cache(episodes_path)
         rename = Rename(dir_traverse, episodes, name_strategy)
         rename.fill_file_list()
         self.__list_changes(rename.fileList)

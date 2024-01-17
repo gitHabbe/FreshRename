@@ -1,16 +1,10 @@
 import os
 
+from OSAction import OSAction
 from frontend.CommandLine.CommandLine import CommandLine
 from models.DirTraverse import DirTraverse
 from models.RequestShow import RequestShow
 from models.UserInput import UserInput
-
-
-class OSAction:
-
-    def __init__(self, operative_system, dir_traverse: DirTraverse):
-        self.__os = operative_system
-        self.__dir_traverse = dir_traverse
 
 
 def main():
