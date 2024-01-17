@@ -3,10 +3,12 @@ from os import DirEntry
 from re import Pattern, Match, search
 from typing import ClassVar
 
+from models.LocalFileEntry import LocalFileEntry
+
 
 @dataclass
 class FileRegex:
-    entry: DirEntry
+    entry: LocalFileEntry
     __patterns: ClassVar[list[Pattern[str]]] = [r"[Ss](\d?\d)[Ee](\d?\d)", r"(\d?\d)[Xx](\d?\d)"]
 
     def find_match(self) -> Match or None:

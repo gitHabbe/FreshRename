@@ -6,11 +6,13 @@ from pathlib import PosixPath, WindowsPath
 from dataclasses import dataclass
 from sys import platform
 
+from models.LocalFileEntry import LocalFileEntry
+
 
 @dataclass
 class LocalFileOriginal:
-    dir_entry: DirEntry
     regex_match: re.Match
+    dir_entry: LocalFileEntry
 
     @property
     def uid(self) -> list:

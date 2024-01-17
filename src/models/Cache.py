@@ -1,7 +1,7 @@
 import re
 from dataclasses import dataclass, field
-from os import DirEntry
 
+from models import LocalFileEntry
 from src.models.LocalFileOriginal import LocalFileOriginal
 from src.models.Regex import FileRegex
 
@@ -10,7 +10,7 @@ from src.models.Regex import FileRegex
 class Cache:
     store: dict = field(default_factory=dict)
 
-    def add_store(self, entry: DirEntry) -> None:
+    def add_store(self, entry: LocalFileEntry) -> None:
         match = self.__get_match(entry)
         if match is None:
             return
@@ -19,7 +19,7 @@ class Cache:
         self.store[uid] = local_file
 
     @staticmethod
-    def __get_match(entry: DirEntry) -> re.Match:
+    def __get_match(entry: LocalFileEntry) -> Match:
         regex = FileRegex(entry)
         return regex.find_match()
 

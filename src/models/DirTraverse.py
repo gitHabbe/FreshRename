@@ -2,6 +2,7 @@ import os
 from sys import platform
 
 from models.Cache import Cache
+from models.LocalFileEntry import LocalFileEntry
 from models.OSPath.OSPath import WindowsPath, UnixPath
 
 
@@ -17,7 +18,8 @@ class DirTraverse:
         entries = self.__entries_from_dir()
         for entry in entries:
             self.__is_folder(entry)
-            self.cache.add_store(entry)
+            local_file_entry = LocalFileEntry(entry)
+            self.cache.add_store(local_file_entry)
         entries.close()
 
     def __entries_from_dir(self):
