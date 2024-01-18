@@ -1,8 +1,4 @@
-from os import DirEntry
-
-
 class LocalFileEntry:
-    def __init__(self, entry: DirEntry):
-        self.__entry = entry
-        self.name = entry.name
-        self.path = entry.path
+    def __init__(self, name: str, path: str) -> None:
+        self.name = name
+        self.path = path

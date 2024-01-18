@@ -19,7 +19,7 @@ class DirTraverse:
         entries = self.__entries_from_dir()
         for entry in entries:
             self.__is_folder(entry)
-            local_file_entry = LocalFileEntry(entry)
+            local_file_entry = LocalFileEntry(entry.name, entry.path)
             self.cache.add_store(local_file_entry)
         entries.close()
 
