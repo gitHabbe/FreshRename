@@ -9,12 +9,12 @@ from models.UserInput import UserInput
 
 def main():
     dir_traverse = DirTraverse()
-    os_operations = OSAction(os, dir_traverse)
+    os_action = OSAction(os, dir_traverse, Rename())
 
     request_show = RequestShow()
     user_input = UserInput()
 
-    command_line = CommandLine(user_input, request_show, os_operations)
+    command_line = CommandLine(user_input, request_show, os_action)
     command_line.run()
 
 
