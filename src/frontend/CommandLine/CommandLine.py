@@ -28,11 +28,8 @@ class CommandLine:
         episodes_data: json = self.__request_show.episodes(show_response)
         episodes_path: str = self.__episodes_path()
         name_strategy: NameStrategy = self.__choose_pattern()
-        dir_traverse = self.__os_action.dir_traverse
         self.__os_action.build_cache(episodes_path)
-        # rename = Rename(name_strategy)
         self.__os_action.fill_file_list(episodes_data, name_strategy)
-        # rename.fill_file_list(dir_traverse.cache.store, episodes_data)
         file_list = self.__os_action.rename.file_list
         self.__list_changes(file_list)
         is_confirmed: bool = self.__confirm_rename(file_list)
