@@ -2,10 +2,9 @@ import json
 from typing import Type
 
 from OSAction import OSAction
-from models.DirTraverse import DirTraverse
-from models.TvShowRootPath import TvShowRootPath
 from models.Rename import Rename
 from models.RequestShow import RequestShow
+from models.TvShowRootPath import TvShowRootPath
 from models.UserInput import UserInput
 from models.namePatterns.NamePattern import NameStrategy
 from models.namePatterns.PatternSelector import patterns
@@ -26,19 +25,21 @@ class CommandLine:
         is_old_path: bool = self.__confirm_path()
         if not is_old_path:
             self.__new_path()
-        episodes: json = self.__request_show.episodes(show_response)
+        episodes_data: json = self.__request_show.episodes(show_response)
         episodes_path: str = self.__episodes_path()
         name_strategy: NameStrategy = self.__choose_pattern()
         dir_traverse = self.__os_action.dir_traverse
         self.__os_action.build_cache(episodes_path)
-        rename = Rename(dir_traverse, episodes, name_strategy)
-        rename.fill_file_list()
-        self.__list_changes(rename.fileList)
-        is_confirmed: bool = self.__confirm_rename(rename.fileList)
+        # rename = Rename(name_strategy)
+        self.__os_action.fill_file_list(episodes_data, name_strategy)
+        # rename.fill_file_list(dir_traverse.cache.store, episodes_data)
+        file_list = self.__os_action.rename.file_list
+        self.__list_changes(file_list)
+        is_confirmed: bool = self.__confirm_rename(file_list)
         if is_confirmed:
-            rename.rename_files()
+            self.__os_action.rename.rename_files()
         else:
-            self.test_data: list = rename.fileList
+            self.test_data: list = self.__os_action.rename.file_list
             print("No changes made")
             return
 
