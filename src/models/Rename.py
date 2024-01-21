@@ -1,21 +1,19 @@
 import os
 from dataclasses import dataclass, field
 
-from models.DirTraverse import DirTraverse
 from models.LocalFileOriginal import LocalFileOriginal
-from models.namePatterns.NamePattern import NameStrategy
+from models.namePatterns.NamePattern import NameStrategy, UpperLetters
 
 
 @dataclass
 class Rename:
-    __dir_traverse: DirTraverse
-    __json_data: list
-    __name_strategy: NameStrategy
-    fileList: list = field(default_factory=list)
+    __name_strategy: NameStrategy = field(default_factory=UpperLetters)
+    file_list: list = field(default_factory=list)
 
-    def fill_file_list(self):
-        store = self.__dir_traverse.cache.store
-        for episode in self.__json_data:
+    def fill_file_list(self, store, request_show_episode_data, name_strategy):
+        self.__name_strategy = name_strategy
+        # store = self.__dir_traverse.cache.store
+        for episode in request_show_episode_data:
             season_num, episode_num = self.__uid(episode)
             local_file = store.get(season_num + episode_num)
             if local_file is None:
@@ -36,7 +34,7 @@ class Rename:
         file_item = self.__file_item(local_file, episode)
         if file_item["oldName"] == file_item["newName"]:
             return
-        self.fileList.append(file_item)
+        self.file_list.append(file_item)
 
     def __file_item(self, local_file: LocalFileOriginal, episode) -> dict:
         self.__set_strategy(local_file)
@@ -56,7 +54,7 @@ class Rename:
         self.__name_strategy.episode = episode_num
 
     def rename_files(self):
-        for singleFile in self.fileList:
+        for singleFile in self.file_list:
             old_file = singleFile["oldFile"]
             new_file = singleFile["newFile"]
             os.rename(old_file, new_file)
