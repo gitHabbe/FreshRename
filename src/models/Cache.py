@@ -6,9 +6,11 @@ from src.models.LocalFileOriginal import LocalFileOriginal
 from src.models.Regex import FileRegex
 
 
-@dataclass
+# @dataclass
 class Cache:
-    store: dict = field(default_factory=dict)
+    # store: dict = field(default_factory=dict)
+    def __init__(self):
+        self.store = {}
 
     def add_store(self, entry: LocalFileEntry) -> None:
         match = self.__get_match(entry)
