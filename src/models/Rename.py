@@ -1,6 +1,3 @@
-import os
-from dataclasses import dataclass, field
-
 from models.LocalFileOriginal import LocalFileOriginal
 from models.namePatterns.NamePattern import NameStrategy, UpperLetters
 
@@ -61,4 +58,3 @@ class Rename:
             old_file = singleFile["oldFile"]
             new_file = singleFile["newFile"]
             self.__os.rename(old_file, new_file)
-            # os.rename(old_file, new_file)

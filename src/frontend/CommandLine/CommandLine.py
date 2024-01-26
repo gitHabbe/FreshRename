@@ -4,7 +4,6 @@ from typing import Type
 from OSAction import OSAction
 from models.Cache import Cache
 from models.LocalFileEntry import LocalFileEntry
-from models.Rename import Rename
 from models.RequestShow import RequestShow
 from models.TvShowRootPath import TvShowRootPath
 from models.UserInput import UserInput

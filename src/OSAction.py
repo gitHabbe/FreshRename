@@ -1,5 +1,4 @@
 from models.DirTraverse import DirTraverse
-from models.LocalFileEntry import LocalFileEntry
 from models.Rename import Rename
 
 
