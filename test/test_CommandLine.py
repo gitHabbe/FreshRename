@@ -50,11 +50,8 @@ class TestCommandLine(unittest.TestCase):
         user_input.confirm_tv_show_rename = MagicMock(return_value=False)
         user_input.confirm_tv_show_rename = MagicMock(return_value=True)
 
-        request_show = RequestShow()
-        request_show.name = MagicMock(return_value=[{"show": {"id": 559, "name": tv_show_name}}])
-        with open("../test/RequestShowData.json", "r") as tv_show_mock:
-            load = json.load(tv_show_mock)[tv_show_name]
-            request_show.episodes = MagicMock(return_value=load)
+        tv_show_request_data = {"show": {"id": 559, "name": tv_show_name}}
+        request_show = self.__mock_request_data(tv_show_name, tv_show_request_data)
 
         action = OSAction(OSMock(tv_show_name))
         os_action = action
@@ -70,15 +67,20 @@ class TestCommandLine(unittest.TestCase):
         user_input.choose_name_strategy = MagicMock(return_value="01x01 - Episode name here")
         user_input.confirm_tv_show_rename = MagicMock(return_value=False)
 
-        request_show = RequestShow()
-        request_show.name = MagicMock(return_value=[{"show": {"id": 2013997, "name": tv_show_name}}])
-        with open("../test/RequestShowData.json", "r") as tv_show_mock:
-            load = json.load(tv_show_mock)[tv_show_name]
-            request_show.episodes = MagicMock(return_value=load)
+        tv_show_request_data = {"show": {"id": 2013997, "name": tv_show_name}}
+        request_show = self.__mock_request_data(tv_show_name, tv_show_request_data)
 
         action = OSAction(OSMock(tv_show_name))
         os_action = action
         self.__verify_tv_show(user_input, request_show, os_action)
+
+    def __mock_request_data(self, tv_show_name, tv_show_request_data):
+        request_show = RequestShow()
+        request_show.name = MagicMock(return_value=[tv_show_request_data])
+        with open("../test/RequestShowData.json", "r") as tv_show_mock:
+            load = json.load(tv_show_mock)[tv_show_name]
+            request_show.episodes = MagicMock(return_value=load)
+        return request_show
 
     def __verify_tv_show(self, user_input, request_show, os_action):
         command_line = CommandLine(user_input, request_show, os_action)
