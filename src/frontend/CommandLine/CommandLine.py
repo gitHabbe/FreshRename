@@ -2,6 +2,8 @@ import json
 from typing import Type
 
 from OSAction import OSAction
+from models.Cache import Cache
+from models.LocalFileEntry import LocalFileEntry
 from models.Rename import Rename
 from models.RequestShow import RequestShow
 from models.TvShowRootPath import TvShowRootPath
@@ -16,8 +18,8 @@ class CommandLine:
         self.__request_show = request_show
         self.__questionary = questionary_library
         self.__os_action = os_action
-        self.test_data = []
         self.__tv_show_root_path = TvShowRootPath()
+        self.cache = Cache()
 
     def run(self):
         show_name: str = self.__questionary.ask_tv_show_name()
@@ -28,17 +30,28 @@ class CommandLine:
         episodes_data: json = self.__request_show.episodes(show_response)
         episodes_path: str = self.__episodes_path()
         name_strategy: NameStrategy = self.__choose_pattern()
-        self.__os_action.build_cache(episodes_path)
-        self.__os_action.fill_file_list(episodes_data, name_strategy)
+
+        self.__store_local_files(episodes_path)
+        self.__os_action.fill_file_list(self.cache.store, episodes_data, name_strategy)
         file_list = self.__os_action.rename.file_list
         self.__list_changes(file_list)
         is_confirmed: bool = self.__confirm_rename(file_list)
         if is_confirmed:
             self.__os_action.rename.rename_files()
         else:
-            self.test_data: list = self.__os_action.rename.file_list
             print("No changes made")
             return
+
+    def __store_local_files(self, episodes_path):
+        iterator = self.__os_action.get_local_files(episodes_path)
+        for entry in iterator:
+            self.__is_folder(entry)
+            local_file_entry = LocalFileEntry(entry.name, entry.path)
+            self.cache.add_store(local_file_entry)
+
+    def __is_folder(self, entry):
+        if entry.is_dir():
+            self.__store_local_files(entry.path)
 
     def __confirm_show(self, show_name) -> list:
         show_response = self.__request_show.name(show_name)[0]

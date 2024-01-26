@@ -5,10 +5,12 @@ from models.LocalFileOriginal import LocalFileOriginal
 from models.namePatterns.NamePattern import NameStrategy, UpperLetters
 
 
-@dataclass
 class Rename:
-    __name_strategy: NameStrategy = field(default_factory=UpperLetters)
-    file_list: list = field(default_factory=list)
+
+    def __init__(self, operating_system):
+        self.__os = operating_system
+        self.__name_strategy: NameStrategy = UpperLetters()
+        self.file_list: list = []
 
     def fill_file_list(self, store, request_show_episode_data, name_strategy):
         self.__name_strategy = name_strategy
@@ -43,6 +45,7 @@ class Rename:
         file_data["oldName"] = local_file.regex_match.string
         file_data["oldFile"] = local_file.dir_entry.path
         file_data["newName"] = f"{self.__name_strategy.name()}{episode['name']}.{file_type}"
+        #regex /^(?!.{256,})(?!(aux|clock\$|con|nul|prn|com[1-9]|lpt[1-9])(?:$|\.))[^ ][ \.\w-$()+=[\];#@~,&amp;']+[^\. ]$/i
         file_data["newName"] = file_data["newName"].replace(":", "-")
         old_path = local_file.path.parents[0]
         file_data["newFile"] = f"{old_path}{local_file.separator()}{file_data['newName']}"
@@ -57,4 +60,5 @@ class Rename:
         for singleFile in self.file_list:
             old_file = singleFile["oldFile"]
             new_file = singleFile["newFile"]
-            os.rename(old_file, new_file)
+            self.__os.rename(old_file, new_file)
+            # os.rename(old_file, new_file)
