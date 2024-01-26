@@ -1,0 +1,3030 @@
+{
+  "Invincible": [
+    {
+      "id": 2013997,
+      "url": "https://www.tvmaze.com/episodes/2013997/invincible-1x01-its-about-time",
+      "name": "It's About Time",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-03-26",
+      "airtime": "",
+      "airstamp": "2021-03-26T12:00:00+00:00",
+      "runtime": 48,
+      "rating": {
+        "average": 8
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/300/752426.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/300/752426.jpg"
+      },
+      "summary": "<p>When Mark Grayson finally inherits powers from his superhero father, it's a dream come true. But there's more to being a hero than just choosing a name and costume.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2013997"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2013998,
+      "url": "https://www.tvmaze.com/episodes/2013998/invincible-1x02-here-goes-nothing",
+      "name": "Here Goes Nothing",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-03-26",
+      "airtime": "",
+      "airstamp": "2021-03-26T12:00:00+00:00",
+      "runtime": 44,
+      "rating": {
+        "average": 8.2
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/300/752427.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/300/752427.jpg"
+      },
+      "summary": "<p>With his father out of action, Mark struggles to defend the city against an interdimensional invasion, joining forces with a team of teenage superheroes.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2013998"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2013999,
+      "url": "https://www.tvmaze.com/episodes/2013999/invincible-1x03-who-you-calling-ugly",
+      "name": "Who You Calling Ugly?",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-03-26",
+      "airtime": "",
+      "airstamp": "2021-03-26T12:00:00+00:00",
+      "runtime": 42,
+      "rating": {
+        "average": 8.1
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/300/752429.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/300/752429.jpg"
+      },
+      "summary": "<p>Mark has to cut a study date short to help save Mount Rushmore from a crazed scientist. Robot deals with Action - Comic as he assembles a new team of world-saving superheroes.</p><p>\u00a0</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2013999"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2014000,
+      "url": "https://www.tvmaze.com/episodes/2014000/invincible-1x04-neil-armstrong-eat-your-heart-out",
+      "name": "Neil Armstrong, Eat Your Heart Out",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-04-02",
+      "airtime": "",
+      "airstamp": "2021-04-02T12:00:00+00:00",
+      "runtime": 45,
+      "rating": {
+        "average": 7.9
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/301/754393.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/301/754393.jpg"
+      },
+      "summary": "<p>It's two firsts for Mark: a first date and a first trip to another planet. At the same time, Nolan and Debbie revisit their own first vacation together.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2014000"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2014001,
+      "url": "https://www.tvmaze.com/episodes/2014001/invincible-1x05-that-actually-hurt",
+      "name": "That Actually Hurt",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-04-09",
+      "airtime": "",
+      "airstamp": "2021-04-09T12:00:00+00:00",
+      "runtime": 46,
+      "rating": {
+        "average": 8.4
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/305/763638.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/305/763638.jpg"
+      },
+      "summary": "<p>Feeling confident in his new abilities, Mark risks a team-up with a local villain to take down a crime lord, while simultaneously juggling school and a new relationship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2014001"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2014049,
+      "url": "https://www.tvmaze.com/episodes/2014049/invincible-1x06-you-look-kinda-dead",
+      "name": "You Look Kinda Dead",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-04-16",
+      "airtime": "",
+      "airstamp": "2021-04-16T12:00:00+00:00",
+      "runtime": 45,
+      "rating": {
+        "average": 7.8
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/308/771879.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/308/771879.jpg"
+      },
+      "summary": "<p>Mark joins William and Amber on a campus visit to Upstate University, hoping to discover a new future for himself. Debbie makes her own disturbing discovery.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2014049"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2014050,
+      "url": "https://www.tvmaze.com/episodes/2014050/invincible-1x07-we-need-to-talk",
+      "name": "We Need to Talk",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2021-04-23",
+      "airtime": "",
+      "airstamp": "2021-04-23T12:00:00+00:00",
+      "runtime": 49,
+      "rating": {
+        "average": 8.7
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/310/775404.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/310/775404.jpg"
+      },
+      "summary": "<p>Feeling lost and confused, Mark looks for advice from Eve. At the same time, everyone's looking for him.</p><p>\u00a0</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2014050"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2014051,
+      "url": "https://www.tvmaze.com/episodes/2014051/invincible-1x08-where-i-really-come-from",
+      "name": "Where I Really Come From",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2021-04-30",
+      "airtime": "",
+      "airstamp": "2021-04-30T12:00:00+00:00",
+      "runtime": 45,
+      "rating": {
+        "average": 8.5
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/311/778393.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/311/778393.jpg"
+      },
+      "summary": "<p>Mark must prove he's become the hero he's always wanted to be by stopping an unstoppable force.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2014051"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2600747,
+      "url": "https://www.tvmaze.com/episodes/2600747/invincible-2x01-a-lesson-for-your-next-life",
+      "name": "A Lesson for Your Next Life",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-11-03",
+      "airtime": "",
+      "airstamp": "2023-11-03T12:00:00+00:00",
+      "runtime": 49,
+      "rating": {
+        "average": 8.6
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/484/1212495.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/484/1212495.jpg"
+      },
+      "summary": "<p>In the aftermath of his father's betrayal, Mark struggles with his responsibilities as Invincible and encounters an unexpected enemy.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2600747"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2647565,
+      "url": "https://www.tvmaze.com/episodes/2647565/invincible-2x02-in-about-six-hours-i-lose-my-virginity-to-a-fish",
+      "name": "In About Six Hours I Lose My Virginity to a Fish",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-11-10",
+      "airtime": "",
+      "airstamp": "2023-11-10T12:00:00+00:00",
+      "runtime": 50,
+      "rating": {
+        "average": 8.5
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/485/1214959.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/485/1214959.jpg"
+      },
+      "summary": "<p>It's summer break for Mark and his friends, but supervillains don't take a vacation. Mark is forced to face the consequences of Omni-Man's double life.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2647565"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2647566,
+      "url": "https://www.tvmaze.com/episodes/2647566/invincible-2x03-this-missive-this-machination",
+      "name": "This Missive, This Machination!",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-11-17",
+      "airtime": "",
+      "airstamp": "2023-11-17T12:00:00+00:00",
+      "runtime": 49,
+      "rating": {
+        "average": 8.5
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/487/1218236.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/487/1218236.jpg"
+      },
+      "summary": "<p>Mark starts his college career, Debbie struggles with personal trauma, and Allen the Alien returns home to find a new threat facing the Coalition of Planets.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2647566"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    },
+    {
+      "id": 2647567,
+      "url": "https://www.tvmaze.com/episodes/2647567/invincible-2x04-its-been-a-while",
+      "name": "It's Been a While",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-11-24",
+      "airtime": "",
+      "airstamp": "2023-11-24T12:00:00+00:00",
+      "runtime": 47,
+      "rating": {
+        "average": 8.6
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/488/1221317.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/488/1221317.jpg"
+      },
+      "summary": "<p>Mark answers the call to save an alien species, but the mission has unexpected personal consequences.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2647567"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/37196"
+        }
+      }
+    }
+  ],
+  "Entourage": [
+      {
+        "id": 51950,
+        "url": "https://www.tvmaze.com/episodes/51950/entourage-1x01-entourage",
+        "name": "Entourage",
+        "season": 1,
+        "number": 1,
+        "type": "regular",
+        "airdate": "2004-07-18",
+        "airtime": "22:30",
+        "airstamp": "2004-07-19T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767406.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767406.jpg"
+        },
+        "summary": "<p>Vincent Chase is a young, hot, up-and-coming actor living in Hollywood. Tonight, he must attend the opening of his latest movie \"Head On,\" but first he and his three best friends from back home (Queens, NY) have lunch and discuss their upcoming 10-year high school reunion. Vince is reluctant to go but his buddies urge him to go with them. At the post-premiere party, Vince's agent, Ari, hassles Eric about getting Vince to read the script for a possible new project. Over breakfast, Vince says he's not going to do \"Matterhorn\" on Eric's advice. The foursome goes to meet with the director where Vince impresses him so much that Ari calls later to tell him that they've offered $4 million for the part. While Turtle and Drama celebrate, Vince lets him know that Eric is not too enthused about the script. Later, Ari and Eric share a rather confrontational dinner while discussing the future of their star's career. After Vince decides to take Eric's advice not to do the movie, the boys leave for their reunion. Before they can drive off, though, they get a call with some bad news: Colin Farrell has taken the part.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51950"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51951,
+        "url": "https://www.tvmaze.com/episodes/51951/entourage-1x02-the-review",
+        "name": "The Review",
+        "season": 1,
+        "number": 2,
+        "type": "regular",
+        "airdate": "2004-07-25",
+        "airtime": "22:30",
+        "airstamp": "2004-07-26T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.6
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767407.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767407.jpg"
+        },
+        "summary": "<p>While Drama practices for his acting class over breakfast, Turtle enters with some bad news: an important trade magazine has given Vince's performance a negative review (including calling him a \"fly-by-night pretty boy\"). While paying Ari an office visit to discuss it, Eric meets Ari's new assistant, Emily. Following Ari's advice to show Vince a good time to get his mind off the review, Eric okays Vince's poor decision to lease a new Rolls Royce. Jessica Alba bumps into the boys during their luncheon and invites them to her party for Justine Chapin, her virginal pop-singer friend. The party proves to be a good time for everybody: Justine hits on Vince, Turtle shows off the Rolls to some girls, Eric gets some much needed assurance, and Drama finds that he isn't the only one skipping his acting class. In the morning, Eric reads Vince a review from the New York Times proclaiming him to be \"the next Johnny Depp.\"</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51951"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51952,
+        "url": "https://www.tvmaze.com/episodes/51952/entourage-1x03-talk-show",
+        "name": "Talk Show",
+        "season": 1,
+        "number": 3,
+        "type": "regular",
+        "airdate": "2004-08-01",
+        "airtime": "22:30",
+        "airstamp": "2004-08-02T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767408.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767408.jpg"
+        },
+        "summary": "<p>The boys attend a boxing match at the Staples Center where they bump into various celebrities. While Turtle and Drama talk up Luke Wilson about his new home theater system, Jimmy Kimmel invites Vince to come on his show to promote \"Head On.\" In the morning, the foursome discuss their past relationships with women, and the consensus (all but Eric) seems to be that it's better to leave a girl dangling than break up with her. Drama also fills Vince in on his old grudge against Jimmy Kimmel. Later on, Eric tries his best to do a pre-interview for Vince's appearance while they all enjoy a game of golf. Afterwards, he breaks it to Vince that one of his one-night stands will be appearing on the show as well. The day of the show, Kristen stops by the guest house to pick up some things from Eric where the visit quickly turns into \"break-up sex.\" Meanwhile, Drama and Turtle visit Rufus, who tells them that if Vince plugs his company on the show, they'll get their home theater system for free. At the show, the boys go to the Green Room while Vince finds sets out for a pre-show apology/visit. Emily shows up and shares a cigarette with Eric, and with a little help from Drama, their free home theater system is secured.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51952"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51953,
+        "url": "https://www.tvmaze.com/episodes/51953/entourage-1x04-date-night",
+        "name": "Date Night",
+        "season": 1,
+        "number": 4,
+        "type": "regular",
+        "airdate": "2004-08-08",
+        "airtime": "22:30",
+        "airstamp": "2004-08-09T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767409.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767409.jpg"
+        },
+        "summary": "<p>Ari wakes Eric with a phone call to remind him that tonight is the all-important opening night for Vince's movie. Immediately after Eric hangs up, Emily unexpectedly drops off fan mail, but with ulterior motives. Drama introduces the guys to his latest lady friend back at the house and then they discuss their plans for the evening over breakfast at a diner. Vince's major work for the day is a stop at Big Boy's Neighborhood, a local radio show. As a result of the appearance, Vince secures a date for himself with Justine Chapin. While everybody gets ready for the night's activities, Ari video conferences with Eric to tell him that matinée numbers for Vince's movie have been \"less than stellar\" because it is in direct competition with the latest Pixar feature. Kristen also calls to confess to Eric that she might still harbor feelings for him. Turtle resorts to desperate measures to get a date for their night of bowling, and it does not go unspoiled. After bowling, the large group makes a stop at a night club where, one by one, the boys find themselves alone. The night does not end on a bad note, however, and Ari arrives with some good news.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51953"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51954,
+        "url": "https://www.tvmaze.com/episodes/51954/entourage-1x05-the-script-and-the-sherpa",
+        "name": "The Script and the Sherpa",
+        "season": 1,
+        "number": 5,
+        "type": "regular",
+        "airdate": "2004-08-15",
+        "airtime": "22:30",
+        "airstamp": "2004-08-16T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.5
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767410.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767410.jpg"
+        },
+        "summary": "<p>The boys are less than pleased that Vince's latest fling, Fiona, has overstayed the 3-day rule that Vince instated long ago. At the gym, her new age approach to exercise bothers Drama. Her vegan lifestyle seems to be bothering everybody in the house. Eric is re-introduced to an old acquaintance who may have just the script that Vince has been looking for: a story about a guy from Queens. Turtle tries to find a way around a weed drought in LA. Over lunch with Ari, Eric learns that the producer of \"Queens Boulevard\" doesn't like Vince. Fiona overhears Turtle's dilemma and offers to take the guys to her Sherpa. The Sherpa (played by Val Kilmer) happily treats them all to some of his organically grown, pesticide-free \"herbal supplements\" and gets a little paranoid when Eric's phone rings. Eric and Vince have dinner with Scott Wick, the movie's producer, thanks to Ari. It's not going very well until Vince offers to hook Scott up after admitting to being high during the meeting. The three share a joint in Scott's car when a cop stops by to check up on them but Vince's charm and movie-star status saves them all. Needless to say, Vince has left quite an impression, and he gets the part. The boys are all pleased when Fiona leaves for an extended trip to India.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51954"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51955,
+        "url": "https://www.tvmaze.com/episodes/51955/entourage-1x06-busey-and-the-beach",
+        "name": "Busey and the Beach",
+        "season": 1,
+        "number": 6,
+        "type": "regular",
+        "airdate": "2004-08-22",
+        "airtime": "22:30",
+        "airstamp": "2004-08-23T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.5
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767411.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767411.jpg"
+        },
+        "summary": "<p>The boys begin their day at Ari's office. They pair off: Drama prepares to meet his potential new agent and drags Turtle with him while Eric and Vince attend a special meeting. The \"meeting\" is basically an ego-booster for Vince where a roomful of agents try to entice him with potential projects. Drama discovers that his situation is an entirely different story when he finds his new agent answering his own phone in a cubicle. When he explains that it's going to be hard to find new jobs, an angered Drama storms out with some, ummm, dramatic parting words. Later, the boys attend Gary Busey's art opening where they bump into aspiring agent Josh Weinstein and a dejected Drama meets another old actor friend who is a waiter for a catering company. They leave the opening with an invitation to a hot beach party and go out with a bang, thanks to Turtle. Emily lets Ari know that he should be a little nervous about the whole situation. Turtle confronts Gary Busey with some interesting results. When Eric lets Ari know about their disapproval, Ari leaves his kid's birthday party to have an honest conversation with the pair. After things are settled, Ari lets Drama in on some somewhat surprising news.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51955"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51956,
+        "url": "https://www.tvmaze.com/episodes/51956/entourage-1x07-the-scene",
+        "name": "The Scene",
+        "season": 1,
+        "number": 7,
+        "type": "regular",
+        "airdate": "2004-08-29",
+        "airtime": "22:30",
+        "airstamp": "2004-08-30T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.5
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767412.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767412.jpg"
+        },
+        "summary": "<p>Things appear to be back to normal. While the boys wait at a coffee shop for a meeting with Ari, they all give Eric a hard time about leaving Emily a drunken message the night before. Drama is in good spirits because he has some money to burn after getting residuals from his brief stint on \"Pacific Blue\". Ari has arranged a \"meet &amp; greet\" with the director of \"Queens Boulevard\", so the group heads to the infamous Chateau Marmont. The outcome of the meeting is hazy: Vince likes Billy, but Eric is getting a bad feeling, and they walk away with a script that he has made revisions to. The revision that causes the most uproar begins to cause some tension among the ranks. Shauna lets Eric know that Vince's sex symbol status could be on the line if he chooses to go forward with this movie. Eric makes a secret phone call to Ari to express his concern. After hearing some reassuring wisdom, the boys screen Billy's previous film, which was a huge hit at Sundance. Amazingly, they all like it. The next day, handshakes are exchanged, and the decision is made to entrust the film to Billy Walsh.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51956"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51957,
+        "url": "https://www.tvmaze.com/episodes/51957/entourage-1x08-new-york",
+        "name": "New York",
+        "season": 1,
+        "number": 8,
+        "type": "regular",
+        "airdate": "2004-09-12",
+        "airtime": "22:30",
+        "airstamp": "2004-09-13T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.5
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767413.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767413.jpg"
+        },
+        "summary": "<p>Sick of being known as \"Vince's guy,\" Eric wants a title commensurate with his responsibilities. With his latest shoot taking him to New York for three months, Vince prepares to say goodbye to L.A.--as well as his many \"special\" girlfriends. Meanwhile, Drama debates taking either a high-paying TV role or a low-paying film gig, and Turtle stakes out a claim as Vince's \"farewell party\" promoter.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51957"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51958,
+        "url": "https://www.tvmaze.com/episodes/51958/entourage-2x01-the-boys-are-back-in-town",
+        "name": "The Boys Are Back in Town",
+        "season": 2,
+        "number": 1,
+        "type": "regular",
+        "airdate": "2005-06-05",
+        "airtime": "22:30",
+        "airstamp": "2005-06-06T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767414.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767414.jpg"
+        },
+        "summary": "<p>With filming on Queens Boulevard completed, Vince, Eric, Turtle and Drama arrive back in LA, ready to pick up where they left off. Eric tries to fulfill his new duties as Vince's manager, while also trying to control the frustrations caused by his relationship with Kristen. He also has to deal with Ari, who lets him know that offers to Vince have started to dry up, and that Vince should take the starring role in \"Aquaman.\" Turtle steps up into his new role as the house manager and Drama finds an unconventional way to get a new set of headshots.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51958"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51959,
+        "url": "https://www.tvmaze.com/episodes/51959/entourage-2x02-my-maserati-does-185",
+        "name": "My Maserati Does 185",
+        "season": 2,
+        "number": 2,
+        "type": "regular",
+        "airdate": "2005-06-12",
+        "airtime": "22:30",
+        "airstamp": "2005-06-13T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767415.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767415.jpg"
+        },
+        "summary": "<p>When Beverly Hills Maserati offers Vince a free Maserati, he passes it on as a thank you to Eric 'E', his devoted personal manager. who is dragged to a wild party and ends up in bed with a girl he just met there. Agent Ari keeps insisting Vince should do Aquaman, to the point of reading the script aloud while they're in the sauna till they promise to go trough it end then decide. and feels very guilty but is advised not to tell his girlfriend Kristen, only to hear she was unfaithful too and breaks up.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51959"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51960,
+        "url": "https://www.tvmaze.com/episodes/51960/entourage-2x03-aquamansion",
+        "name": "Aquamansion",
+        "season": 2,
+        "number": 3,
+        "type": "regular",
+        "airdate": "2005-06-19",
+        "airtime": "22:30",
+        "airstamp": "2005-06-20T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767416.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767416.jpg"
+        },
+        "summary": "<p>Vince is taking big risks, listening to Turtle rather then E, Ari and his financial adviser: without a new role in the pocket, he is tempted to buy a Hollywood house, and one of true star status, which means an outrageous price, a multiple of his $1,000,000 limit, but the idea of being the next owner of Marlon Brandon's former villa with private pool is irresistible. Yet Vince still won't commit to sign for Aquaman, actually declares he won't play a ridiculous 'cartoon character' and seems decided against the part when he sees the costume design, E and Ari must pull all the stops to change his mind. Meanwhile party life goes on, with Johnny Drama focusing on getting his lifelong ban revoked at Hugh Hefner's Playboy Mansion. It takes a lot of doing, after being found out in Vince's car trunk they nearly get all banned, but then...</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51960"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51961,
+        "url": "https://www.tvmaze.com/episodes/51961/entourage-2x04-an-offer-refused",
+        "name": "An Offer Refused",
+        "season": 2,
+        "number": 4,
+        "type": "regular",
+        "airdate": "2005-06-26",
+        "airtime": "22:30",
+        "airstamp": "2005-06-27T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767417.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767417.jpg"
+        },
+        "summary": "<p>Vince is finally on-board but Ari tells E that the studio has not sent over the paperwork for Aquaman and he can't find out why. They hold off on telling Vince. Vince hires an expensive decorator, Carrie Carlson, for his mansion. And Drama wants money to have his calves augmented. Queen's Blvd gets into Sundance. Josh Weinstein, who brought them the script, tells them that James Cameron is directing Aquaman. E interrupts Ari's couples therapy and Ari manages to get a hold of Dana Gordon who reassures him. Ari and E tell Vince all is well at a celebration for getting into Sundance. Then the two hear \"Leo\" has left to meet with Cameron about a fish movie.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51961"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51962,
+        "url": "https://www.tvmaze.com/episodes/51962/entourage-2x05-neighbors",
+        "name": "Neighbors",
+        "season": 2,
+        "number": 5,
+        "type": "regular",
+        "airdate": "2005-07-03",
+        "airtime": "22:30",
+        "airstamp": "2005-07-04T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767418.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767418.jpg"
+        },
+        "summary": "<p>E and Ari bitterly blame each-other while worrying about the Aquaman-deal even more now that the press has leaked it prematurely. While Johnny and Turtle keep spending money Vince still doesn't have, his TV celebrity neighbor Bob Saget expresses high praise for landing Staci, inaccessible to him, and discloses her dubious profession. Vince's Queens Boulevard director continues coaching the boys, and gets a high-profile request.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51962"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51963,
+        "url": "https://www.tvmaze.com/episodes/51963/entourage-2x06-chinatown",
+        "name": "Chinatown",
+        "season": 2,
+        "number": 6,
+        "type": "regular",
+        "airdate": "2005-07-10",
+        "airtime": "22:30",
+        "airstamp": "2005-07-11T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767419.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767419.jpg"
+        },
+        "summary": "<p>The boys are starting to get low on cash and to help pay the bills; Ari lands Vince a gig appearing in a lucrative foreign commercial. Meanwhile, Turtle decides to make his own money by entering an Xbox boxing tournament, but he gets ousted early on by a young gaming prodigy. Eric needs to get a copy of \"Queens Boulevard\" to James Cameron so he can see Vince's work, but Walsh refuses to screen it before he shows it at Sundance. Luckily, the A-list director agrees to attend the Sundance screening of the film, offering hope that Vince may still end up with the \"Aquaman\" role.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51963"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51964,
+        "url": "https://www.tvmaze.com/episodes/51964/entourage-2x07-the-sundance-kids",
+        "name": "The Sundance Kids",
+        "season": 2,
+        "number": 7,
+        "type": "regular",
+        "airdate": "2005-07-17",
+        "airtime": "22:30",
+        "airstamp": "2005-07-18T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767420.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767420.jpg"
+        },
+        "summary": "<p>The boys attend the Sundance Film Festival, in snowy season. Eric makes friends with golden touch-producer Harvey Weingard, who might buy Vince's movie, but actually wants him for an old project 'Tapping the Source'- he's hired on the spot for his Australian shooting in three weeks, but that would mean missing out on James Cameron's movie. Ari and E accept this 'safe bet', Vince decides otherwise- Harvey vindictively cries eternal doom. Drama hopes to land a part with his Spanish idol Alejandro Teva- by asking clumsy questions after his movie's screening, and still is offered an audition. Meeting peace Corps girls gets even Turtle horny enough to Google about their target country Sudan, rivaling for one with Drama; they get a threesome but 'cross swords'. Cameron walks out after only 10 minutes, but calls...</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51964"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51965,
+        "url": "https://www.tvmaze.com/episodes/51965/entourage-2x08-oh-mandy",
+        "name": "Oh, Mandy",
+        "season": 2,
+        "number": 8,
+        "type": "regular",
+        "airdate": "2005-07-24",
+        "airtime": "22:30",
+        "airstamp": "2005-07-25T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767421.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767421.jpg"
+        },
+        "summary": "<p>Vince has the Aquaman lead; James Cameron is casting his opposite from five top-actresses. The group can stay in Jessica Alba's luxurious Malibu residence. Johnny 'Drama' Chase has a shot at a Hallmark TV movie, but can he make it in time across LA through miles of traffic? He does, but gets worked up about another actor he had an incident with and works it out and the surfer molests his car and is arrested just after hearing he was chosen. Vince is to have diner with Aquagirl Mandy Moore, with who he once had a serious romance ending in a grave incident...</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51965"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51966,
+        "url": "https://www.tvmaze.com/episodes/51966/entourage-2x09-i-love-you-too",
+        "name": "I Love You Too",
+        "season": 2,
+        "number": 9,
+        "type": "regular",
+        "airdate": "2005-07-31",
+        "airtime": "22:30",
+        "airstamp": "2005-08-01T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767422.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767422.jpg"
+        },
+        "summary": "<p>Vince first accepts to have dinner with his Aquaman-opposite star Mandy Moore and her fiancé, a minute after they were introduced, then hesitates and ends up chickening out, after Internet comics reporter R.J. Spencer interviewed him about his wedding proposal to her while he still was an unknown, something even E never knew. Spencer is not only literally insulted when Vince walks out instead of answering but is implacable whatever E does or offers. He demands $350,000 or his website will stop at nothing to sink Aquaman because of Vince. Meanwhile at Comic-Con in San Diego Johnny Drama enjoys his relative star status with the comics fans, as Torvald from Viking Quest, but slowly gets pissed off as he is outclassed by spin-off Angel Quest star Vanessa Angel. However she ends up telling him she always had a crush on him and finds him cruel he always held her off, so he finally dares tell her he's just as interested. Vince and E's problem is surprisingly solved by the Pussy Patrol girls...</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51966"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51967,
+        "url": "https://www.tvmaze.com/episodes/51967/entourage-2x10-the-bat-mitzvah",
+        "name": "The Bat Mitzvah",
+        "season": 2,
+        "number": 10,
+        "type": "regular",
+        "airdate": "2005-08-07",
+        "airtime": "22:30",
+        "airstamp": "2005-08-08T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767423.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767423.jpg"
+        },
+        "summary": "<p>On the Aquaman set, Vince admits to his co-star Mandy he's still in love with her, which director Cameron hears trough their mikes and so does E, whose confidence is shocked by all his secrecy. Ari Gold, Vince's Jewish agent, is holding a bar mitzvah for his daughter Sarah; as usual he's frantic about his guests, such as his senior partner Terence McQuewick and his daughter Sloan, who is reputed to have an infallible eye for male acting talent and really digs Vince, so Ari fears Terence wants to 'steal Vince'. The boys carefully get fancy party dress at Vinces expense, except E who pays his own clothes and refuses to waste good money on labels like Armani; when he meets Sloan, he does dress up, making the others warn him he's setting himself up for another scorned crush. Drama and Turtle get stuck on an old peoples table and regret having eaten little before the party as they don't get to the yummy stuff having missed the synagogue service with appetizers, nor knew they had to order, so it's kosher vegetarian leftovers, till a waitress shows them the kids buffet, just what they wanted, but are startled to see 13 year-olds blowing weed. Mandy tells Vince she's not quite over him either and put her fiancé Chris on hold.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51967"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51968,
+        "url": "https://www.tvmaze.com/episodes/51968/entourage-2x11-blue-balls-lagoon",
+        "name": "Blue Balls Lagoon",
+        "season": 2,
+        "number": 11,
+        "type": "regular",
+        "airdate": "2005-08-14",
+        "airtime": "22:30",
+        "airstamp": "2005-08-15T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767424.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767424.jpg"
+        },
+        "summary": "<p>Turtle understandably doubts Johny Drama's hope Brooke Shields might dig him at their set while he plays her brother Little Rick. Now Mandy has dumped Chris, Vince is looking forward to her birthday party- the professionals abhor the press bringing that out, even Warner Bros fears that could make Aquaman appear a home-wrecker. Cameron offers them a private diner at his restaurant The Geisha House. Even after a good meeting with Mandy and the boys at Jerry's Deli, E advises against it, but is ignored. Sloan tells E the painting agent Ari Gold gave Vince, who was prepared to buy it as a gift for Mandy, is another fake; E questions Ari, who doesn't confess but still switches the copy with the real thing he gave his wife as anniversary present. Mandy is tickled-pink with the Nitsch.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51968"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51969,
+        "url": "https://www.tvmaze.com/episodes/51969/entourage-2x12-good-morning-saigon",
+        "name": "Good Morning Saigon",
+        "season": 2,
+        "number": 12,
+        "type": "regular",
+        "airdate": "2005-08-21",
+        "airtime": "22:30",
+        "airstamp": "2005-08-22T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767425.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767425.jpg"
+        },
+        "summary": "<p>When Vince misses a meeting because he was with Mandy, Eric and Ari start to worry Vince's love life is interfering with business. Turtle and Drama make a musical discovery when they recover Erik's stolen car.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51969"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51970,
+        "url": "https://www.tvmaze.com/episodes/51970/entourage-2x13-exodus",
+        "name": "Exodus",
+        "season": 2,
+        "number": 13,
+        "type": "regular",
+        "airdate": "2005-08-28",
+        "airtime": "22:30",
+        "airstamp": "2005-08-29T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767426.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767426.jpg"
+        },
+        "summary": "<p>Johnny and Turtle get a gold watch, paid by Vince from his Aquaman bundle, to welcome Saigon to Turtle's company; however they see Mandy with her ex-steady date Chris, so they make cellphone pictures as proof she's apparently cheating on the star. Ari finds his senior partner Terence McQuewick, who didn't attend in three years, chairs the staff meeting and bars him for arriving late; in private he says he's returning full-time, and denies Ari a contract extension as consolation. Ari panics and swears his assistant Lloyd to undying loyalty before sending him out to tell eights agents the code 'tsetse fly', but Lloyd phones Terence already knows, who indeed brands him as a traitor; Ari then invites colleagues to join him in a new agency, but only Lloyd follows him and they find all company privileges are cut of, stat. Sloan reassures E Mandy is probably not cheating. E tells Vince he never felt it was over with Chris, and indeed Mandy confirms she is not quite sure yet, so he breaks up and- wants out of the movie. A 'jealous pep-talk' from Lloyd gives drunk Ari the courage to face his wife, or not quite.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51970"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51971,
+        "url": "https://www.tvmaze.com/episodes/51971/entourage-2x14-the-abyss",
+        "name": "The Abyss",
+        "season": 2,
+        "number": 14,
+        "type": "regular",
+        "airdate": "2005-09-04",
+        "airtime": "22:30",
+        "airstamp": "2005-09-05T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767427.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767427.jpg"
+        },
+        "summary": "<p>When Ari and E learn about each-others problems with Terence viz. Vince, both of which make the press, panic is total. Drama and Turtle give Vince the cold shoulder, hoping Saigon and his friends are their new meal-ticket. Even E considers taking a job as agent with Terence and moving in with his daughter Sloan. Vince refuses to reconsider bailing out on Aquaman and fires Ari and the entourage, yet turns up at Turtle's company birth party. Ari's successor Adam Davies tells Drama he's out with Vince. On Ari's advice, E still supports Vince who has scheduled a meeting with Cameron, whose enthusiasm pulls him over.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51971"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51972,
+        "url": "https://www.tvmaze.com/episodes/51972/entourage-3x01-aquamom",
+        "name": "Aquamom",
+        "season": 3,
+        "number": 1,
+        "type": "regular",
+        "airdate": "2006-06-11",
+        "airtime": "22:30",
+        "airstamp": "2006-06-12T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767428.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767428.jpg"
+        },
+        "summary": "<p>The night of the Aquaman premiere draws close and the crew is preparing themselves for the biggest event of Vince's career. Drama and Turtle keep finding better looking women to bring to the event, but they find themselves prematurely running out of passes to hand out to the hotties. Vince is less concerned about finding a date. He knows there's only one woman to bring -- his mom. Mrs. Chase is hesistant to make the trip to the West Coast due to a fear of travelling, but E finally convinces her to travel with both his and Turtle's mothers. Meanwhile, Ari adjusts to life in his new office (complete with broken down elevator) and finds that he's in for a huge challenge on his own.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51972"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51973,
+        "url": "https://www.tvmaze.com/episodes/51973/entourage-3x02-one-day-in-the-valley",
+        "name": "One Day in the Valley",
+        "season": 3,
+        "number": 2,
+        "type": "regular",
+        "airdate": "2006-06-18",
+        "airtime": "22:30",
+        "airstamp": "2006-06-19T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 10
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767429.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767429.jpg"
+        },
+        "summary": "<p>It's Aquaman's opening day. Initial box office projections, already \"Titanic\"-sized, get even higher after the East Coast numbers stream in, giving everyone hope that the film has a chance to pass \"Spider-Man\" as the biggest opening weekend in history. To avoid getting recognized, Vince and the boys decide to take in a showing in the Valley, but the heat sets off blackouts and unsure West Coast numbers. The bouncing box office receipts and the heat push everyone to the brink, so to unwind, the crew ends up crashing a high school party, where Vince gets to live out his \"Almost Famous\" fantasy. When Ari finally finds them - a drunken Vince celebrating on a rooftop - he breaks the big news: \"Aquaman\" is back on track to break the weekend box office record.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51973"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51974,
+        "url": "https://www.tvmaze.com/episodes/51974/entourage-3x03-dominated",
+        "name": "Dominated",
+        "season": 3,
+        "number": 3,
+        "type": "regular",
+        "airdate": "2006-06-25",
+        "airtime": "22:30",
+        "airstamp": "2006-06-26T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767430.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767430.jpg"
+        },
+        "summary": "<p>After a night on the town celebrating Vince's movie star status with the success of \"Aquaman\" and the unveiling of the new Aquaman theme park ride, the crew gets a surprise visit from Dom, a recently paroled childhood friend from Queens. Back in the day, Dom took a rap for Vince, so Vince is glad to help out his friend in any way he can. But Dom's brash ways quickly prove to be too much for Eric, Drama and Turtle. Unfortunately for them, Vince hires Dom as his new head of security, so it looks as if he will be around for a while. Meanwhile, Ari has his hands full trying to keep his daughter away from a teen star with bad intentions.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51974"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51975,
+        "url": "https://www.tvmaze.com/episodes/51975/entourage-3x04-guys-and-doll",
+        "name": "Guys and Doll",
+        "season": 3,
+        "number": 4,
+        "type": "regular",
+        "airdate": "2006-07-02",
+        "airtime": "22:30",
+        "airstamp": "2006-07-03T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767431.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767431.jpg"
+        },
+        "summary": "<p>With Aquaman packing multiplexes across the world, it's time for Vince to capitalize on his success and pick his next project. Ari informs Vince that the dream role of Pablo Escobar in \"Medellin\" is available, and all that he needs to do to land the role is to impress Phil Rubenstein, the film's producer. The entire entourage attends a party at Rubenstein's Santa Barbara mansion, but all of the goodwill that Vince earns is destroyed when a prized model of Shrek disappears from the producer's house during the party. Suspicion immediately turns to Dom, but the ex-con flatly denies the theft. Turtle, Drama and E don't believe him, but Vince does, and he won't waver in his support for his friend. \"Medellin\" is about to be totally derailed when Dom finally admits to lifting the doll during the party. The crew cut Dom loose and surreptitiously return the model, only to learn that there's a new complication: \"Aquaman 2\" has been approved and is scheduled to start shooting the same day as \"Medellin.\"</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51975"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51976,
+        "url": "https://www.tvmaze.com/episodes/51976/entourage-3x05-crash-and-burn",
+        "name": "Crash and Burn",
+        "season": 3,
+        "number": 5,
+        "type": "regular",
+        "airdate": "2006-07-09",
+        "airtime": "22:30",
+        "airstamp": "2006-07-10T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767432.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767432.jpg"
+        },
+        "summary": "<p>Facing a scheduling conflict, Vince, Eric and Ari must figure out how to keep the 'Aquaman' sequel afloat without upsetting the Oscar(R)-winning director of 'Medellin.' When Saigon's song finally blows up, Turtle requests a sit-down with Ari.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51976"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51977,
+        "url": "https://www.tvmaze.com/episodes/51977/entourage-3x06-threes-company",
+        "name": "Three's Company",
+        "season": 3,
+        "number": 6,
+        "type": "regular",
+        "airdate": "2006-07-16",
+        "airtime": "22:30",
+        "airstamp": "2006-07-17T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767433.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767433.jpg"
+        },
+        "summary": "<p>It takes Vince to drag Drama away from the mob video game in which his image plays opposite Marlon Brandon as Don Corleone. The boys threesome plays hard to find as Vince refuses to dance to a major studio boss's tune as Ari avidly advised. Even a 12,500,000 offer for Aquaman 2 is ignored, Ari can't even get an audience without finding Drama a part first. Meanwhile the losers envy E an offer from his girl Sloan for a trio with Tori, which he believed a bluff but calling it makes it real.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51977"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51978,
+        "url": "https://www.tvmaze.com/episodes/51978/entourage-3x07-strange-days",
+        "name": "Strange Days",
+        "season": 3,
+        "number": 7,
+        "type": "regular",
+        "airdate": "2006-07-23",
+        "airtime": "22:30",
+        "airstamp": "2006-07-24T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767435.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767435.jpg"
+        },
+        "summary": "<p>Aquaman 2 is lost for good. Vince now volunteers to replace Zach Braff to be auctioned as dream-date for charity. Ari gets 12.5 million from Terence and sneakily starts spending it on upgrading his agency. Adam Davies gets wind of this and successfully demands a lucrative partnership. Eric's worrying about waking up spooned with the other trio girl makes it into a problem.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51978"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51979,
+        "url": "https://www.tvmaze.com/episodes/51979/entourage-3x08-the-release",
+        "name": "The Release",
+        "season": 3,
+        "number": 8,
+        "type": "regular",
+        "airdate": "2006-07-30",
+        "airtime": "22:30",
+        "airstamp": "2006-07-31T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767436.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767436.jpg"
+        },
+        "summary": "<p>Vince may still get a break now that the studio is launching Queens Boulevard commercially, but he agrees with the director their re-cut is artistic murder. Johnny has an Edward Burns pilot audition, but throws a ridiculous tantrum, during which his car is stolen, so he isn't even on time. Now Terrance has signed Ari's settlement, he sets up his agency. As soon as Terrance finds out about the agency, he decides vindictively to stop payments and litigate regardless of cost. Just when people discover they won't be paid, probably for months, Terrance's ex offers Ari a way out.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51979"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51980,
+        "url": "https://www.tvmaze.com/episodes/51980/entourage-3x09-vegas-baby-vegas",
+        "name": "Vegas Baby, Vegas!",
+        "season": 3,
+        "number": 9,
+        "type": "regular",
+        "airdate": "2006-08-06",
+        "airtime": "22:30",
+        "airstamp": "2006-08-07T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767437.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767437.jpg"
+        },
+        "summary": "<p>Ari wants Vince to work on his image, but is seduced to follow the boys to Vegas, where 'infallible card player' Vince promises to win a fortune. Drama books his favorite masseur, former football star Ken, for 24 hours. Constant praise brings the stud to an unusual, alas wasted intimate move. Turtle manages to land the position of delegating the strippers contest judging, or in his mind 'the perks'.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51980"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51981,
+        "url": "https://www.tvmaze.com/episodes/51981/entourage-3x10-i-wanna-be-sedated",
+        "name": "I Wanna Be Sedated",
+        "season": 3,
+        "number": 10,
+        "type": "regular",
+        "airdate": "2006-08-13",
+        "airtime": "22:30",
+        "airstamp": "2006-08-14T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767438.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767438.jpg"
+        },
+        "summary": "<p>Eric insults Ari, who therefore matches him with has-been super-producer Bob Ryan. Drama is driver for one day, as Turtle is supposed to sign his discovery's record contract with Sammy Kane. Alas, star Saigon doesn't show up. The boys track him down, only to face more problems. Meanwhile Vince enjoys a lazy day with his girl-friend, who has a sassy secret.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51981"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51982,
+        "url": "https://www.tvmaze.com/episodes/51982/entourage-3x11-what-about-bob",
+        "name": "What About Bob?",
+        "season": 3,
+        "number": 11,
+        "type": "regular",
+        "airdate": "2006-08-20",
+        "airtime": "22:30",
+        "airstamp": "2006-08-21T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767439.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767439.jpg"
+        },
+        "summary": "<p>Ari nearly explodes as not only E, but also obnoxious Bob insists on coming along as he tries to sell their Ramone biopic project to a studio. Drama can't unwind for his first day on set as Ed Burns makes his part more challenging. The sting of the problem proves the solution. Meanwhile Turtle wants a pair of exclusive Fukijama sneakers, without standing in line early. Vince initially refuses to ask a celebrity favor, then accepts to do something special himself, in vain. Turtle gets a great surprise, the other boys an uppercut when Ari's trick to dump Bob backfires.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51982"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51983,
+        "url": "https://www.tvmaze.com/episodes/51983/entourage-3x12-sorry-ari",
+        "name": "Sorry, Ari",
+        "season": 3,
+        "number": 12,
+        "type": "regular",
+        "airdate": "2006-08-27",
+        "airtime": "22:30",
+        "airstamp": "2006-08-28T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767440.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767440.jpg"
+        },
+        "summary": "<p>Vince goes shopping for a new agent with the gang. Ari tries to stop the Vince from getting that new agent.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51983"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51984,
+        "url": "https://www.tvmaze.com/episodes/51984/entourage-3x13-less-than-30",
+        "name": "Less Than 30",
+        "season": 3,
+        "number": 13,
+        "type": "regular",
+        "airdate": "2007-04-08",
+        "airtime": "22:30",
+        "airstamp": "2007-04-09T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767441.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767441.jpg"
+        },
+        "summary": "<p>The boys want to pay for Vince's birthday party as their gift, but Turtle's overspending maxes all their credit cards. Desperate to get Vince back as client from Amanda, Ari practically begs for a meeting and throws in the perfect gift - Vince's dream script, but a dead duck according to Amanda. Drama is obsessed with his Burns movie's billboard. Will Vince accept Turtle's way out, and reward Ari's bribery?</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51984"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51985,
+        "url": "https://www.tvmaze.com/episodes/51985/entourage-3x14-dog-day-afternoon",
+        "name": "Dog Day Afternoon",
+        "season": 3,
+        "number": 14,
+        "type": "regular",
+        "airdate": "2007-04-15",
+        "airtime": "22:30",
+        "airstamp": "2007-04-16T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767442.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767442.jpg"
+        },
+        "summary": "<p>Ari's agency can sign up major gay star Jay Lester, but only if Lloyd uses his charms against his personal preferences. Vince wants a 'couples weekend' in Napa with E, Sloane and a new girl for himself. E worries Sloane won't get on with Lindsay, but the 'test' in L.A. ends up causing trouble. Meanwhile Drama and Turtle trust in their guard dog Arnold to get them weekend dates.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51985"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51986,
+        "url": "https://www.tvmaze.com/episodes/51986/entourage-3x15-manic-monday",
+        "name": "Manic Monday",
+        "season": 3,
+        "number": 15,
+        "type": "regular",
+        "airdate": "2007-04-22",
+        "airtime": "22:30",
+        "airstamp": "2007-04-23T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767443.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767443.jpg"
+        },
+        "summary": "<p>Now Ari acts all neurotic, having lost Vince as client, his wife drags him to yet another therapist, where he denies caring for any client. The boys realize they can't rally say no to Amanda just because she's too hot. After Ari admits being unable to fire blinded employee Rob Rubino, something he normally enjoys sadistically, his therapist recharges his mental energy. Amanda proposes her own surprising solution.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51986"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51987,
+        "url": "https://www.tvmaze.com/episodes/51987/entourage-3x16-gotcha",
+        "name": "Gotcha!",
+        "season": 3,
+        "number": 16,
+        "type": "regular",
+        "airdate": "2007-04-29",
+        "airtime": "22:30",
+        "airstamp": "2007-04-30T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767444.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767444.jpg"
+        },
+        "summary": "<p>Vince accepted Amanda' proposal to defuse the sexual tension by doing it 'once', but they both enjoyed it too much to walk away, another business worry for Eric. When Drama hears his former friend Pauly Shore wants to punk him in the pilot of his new candid camera show, he eagerly accepts. Drama assumes boxer Chuck Liddell practically picking a fight is the gag, but to his horror is punk'd in a lame way, and Chuck swears physical revenge. When Ari's frat friend Scott Siegel visits, present a hot, young Jewish bride and announces he made $45,000,000 with stamps, jealousy strikes Ari and his wife.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51987"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51988,
+        "url": "https://www.tvmaze.com/episodes/51988/entourage-3x17-return-of-the-king",
+        "name": "Return of the King",
+        "season": 3,
+        "number": 17,
+        "type": "regular",
+        "airdate": "2007-05-06",
+        "airtime": "22:30",
+        "airstamp": "2007-05-07T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767445.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767445.jpg"
+        },
+        "summary": "<p>In his battle with Vince's agent-lover Amanda, who seems to overplay her hand for Arthur Gatoff's 'Bogota' movie, Ari uses the pardon on Yom Kippur and ex-alcoholic Nicky Rubinstein's family. Alas Ari's wife refuses to let him break Sabbath restrictions to help out Nicky. It gets the boys doubt if she sabotages it to keep him in California and counter Ari, so E gets Vince to turn to Ari themselves. Meanwhile Vince has taken the boys to the race track and bets on King's ransom, which loses them one. Yet Drama decided to buy the stallion, although no stud but infertile, and an unruly troublemaker on his hands. There are surprising consequences on both fronts.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51988"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51989,
+        "url": "https://www.tvmaze.com/episodes/51989/entourage-3x18-the-resurrection",
+        "name": "The Resurrection",
+        "season": 3,
+        "number": 18,
+        "type": "regular",
+        "airdate": "2007-05-13",
+        "airtime": "22:30",
+        "airstamp": "2007-05-14T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767446.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767446.jpg"
+        },
+        "summary": "<p>Drama is so nervous about the first airing of his TV series Five Towns that he can't stand to see any reviews. He finally bites the bullet after an hour of massage- it's murderous, even worse on himself. Vince and E tell Ari he doesn't get them back, they still want Medellin first. Ari arranges lunch with director Joe Roberts, whom the boys convince. But he demands Vince first makes Matterhorn. Instead, the boys decide to bid on the script and produce it themselves. Turtle has a hard time collecting d-Drama's old-timer from the haughty mechanic Rufus, but gets a date with bis daughter. The box office ends Drama's gloom.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51989"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51990,
+        "url": "https://www.tvmaze.com/episodes/51990/entourage-3x19-the-princes-bride",
+        "name": "The Prince's Bride",
+        "season": 3,
+        "number": 19,
+        "type": "regular",
+        "airdate": "2007-05-20",
+        "airtime": "22:30",
+        "airstamp": "2007-05-21T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767447.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767447.jpg"
+        },
+        "summary": "<p>Vince, Eric and Ari finally try to get \"Medellin\" off the ground. They meet with Yair and Nika Marx to get them to produce it. Problems evolve when Nika seems to be a little bit more interested in Vince than she should. Drama gets an offer from Brett Ratner to star in Rush Hour 3 (2007) and tells everyone about it, but when he meets with Ratner, it is revealed that Ratner made a mistake. Turtle meets with a girl whom he wants to spend the day with, but her father is very strict.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51990"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51991,
+        "url": "https://www.tvmaze.com/episodes/51991/entourage-3x20-adios-amigos",
+        "name": "Adios Amigos",
+        "season": 3,
+        "number": 20,
+        "type": "regular",
+        "airdate": "2007-06-03",
+        "airtime": "22:30",
+        "airstamp": "2007-06-04T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767448.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767448.jpg"
+        },
+        "summary": "<p>The boys move out of the dream-house after Vince refused to earn Medellin's $60,000,000 in bed. Ari finds a new financier, Nicky Rubinstein who just got access to his trust fund. Now they asks QB-director Billy Walsh, who prefers life as porn movie director 'Wally Balls', until he reads it's about Escobar. Alas he and Niucky hate each-other. E is prepared to compromise his relation with Sloan to be the producer. Meanwhile Drama was prepared to take a Spartan rental flat, but can hardly resist a condo way above budget.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51991"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51992,
+        "url": "https://www.tvmaze.com/episodes/51992/entourage-4x01-welcome-to-the-jungle",
+        "name": "Welcome to the Jungle",
+        "season": 4,
+        "number": 1,
+        "type": "regular",
+        "airdate": "2007-06-17",
+        "airtime": "22:30",
+        "airstamp": "2007-06-18T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767489.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767489.jpg"
+        },
+        "summary": "<p>While filming Medellin on location in Colombia, a documentary crew captures the behind-the-scenes action. Caught on film is tension between Billy and Eric, the pursuit of a beautiful actress and Drama's attempt to land a part in the film</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51992"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51993,
+        "url": "https://www.tvmaze.com/episodes/51993/entourage-4x02-the-first-cut-is-the-deepest",
+        "name": "The First Cut is the Deepest",
+        "season": 4,
+        "number": 2,
+        "type": "regular",
+        "airdate": "2007-06-24",
+        "airtime": "22:30",
+        "airstamp": "2007-06-25T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767490.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767490.jpg"
+        },
+        "summary": "<p>Vince and the gang return from their Italian vacation. Billy is avoiding showing Eric and Vince the first cut of the movie. Drama volunteers his new condo for a welcome back party for Vince.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51993"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51994,
+        "url": "https://www.tvmaze.com/episodes/51994/entourage-4x03-malibooty",
+        "name": "Malibooty",
+        "season": 4,
+        "number": 3,
+        "type": "regular",
+        "airdate": "2007-07-01",
+        "airtime": "22:30",
+        "airstamp": "2007-07-02T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767491.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767491.jpg"
+        },
+        "summary": "<p>While Eric is trying to figure out how to fix Medellin, Billy submits it to Cannes, a move that will make it difficult for Vince to find work if it is rejected. Drama has a date with a woman he has desired for years, and brings Turtle along for her friend, who turns out to be an older woman. While he reluctantly agrees to continue on with the date, it's Drama who ends up with her. Vince finds himself at Dennis Hopper's house where he bets on a soccer match, with money he doesn't have.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51994"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51995,
+        "url": "https://www.tvmaze.com/episodes/51995/entourage-4x04-sorry-harvey",
+        "name": "Sorry, Harvey",
+        "season": 4,
+        "number": 4,
+        "type": "regular",
+        "airdate": "2007-07-08",
+        "airtime": "22:30",
+        "airstamp": "2007-07-09T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767492.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767492.jpg"
+        },
+        "summary": "<p>Eric has to tell Harvey that he doesn't own Medellin and will be going to Cannes. Drama must take the Beverly Hills mayor out on the town so he can be annexed into that area.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51995"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51996,
+        "url": "https://www.tvmaze.com/episodes/51996/entourage-4x05-the-dream-team",
+        "name": "The Dream Team",
+        "season": 4,
+        "number": 5,
+        "type": "regular",
+        "airdate": "2007-07-15",
+        "airtime": "22:30",
+        "airstamp": "2007-07-16T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767493.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767493.jpg"
+        },
+        "summary": "<p>When Billy accuses Eric of leaking the Medellin trailer on YouTube, their already strained relationship goes from bad to worse. Meanwhile, Ari lines up Vince's next dream project, and Drama will go to any lengths to buy a hat.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51996"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51997,
+        "url": "https://www.tvmaze.com/episodes/51997/entourage-4x06-the-weho-ho",
+        "name": "The Weho Ho",
+        "season": 4,
+        "number": 6,
+        "type": "regular",
+        "airdate": "2007-07-22",
+        "airtime": "22:30",
+        "airstamp": "2007-07-23T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767494.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767494.jpg"
+        },
+        "summary": "<p>Ari must convince Lloyd to come back to work after Lloyd has a nasty breakup with Tom, Turtle's shady cousin makes them an offer they cant refuse.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51997"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51998,
+        "url": "https://www.tvmaze.com/episodes/51998/entourage-4x07-the-day-fuckers",
+        "name": "The Day Fuckers",
+        "season": 4,
+        "number": 7,
+        "type": "regular",
+        "airdate": "2007-07-29",
+        "airtime": "22:30",
+        "airstamp": "2007-07-30T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767495.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767495.jpg"
+        },
+        "summary": "<p>Capitalizing on a romance-related bet with E and Vince on who can score with the ladies first, Drama takes Turtle under his wing to the one place where love knows no boundaries: Craigslist.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51998"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 51999,
+        "url": "https://www.tvmaze.com/episodes/51999/entourage-4x08-garys-desk",
+        "name": "Gary's Desk",
+        "season": 4,
+        "number": 8,
+        "type": "regular",
+        "airdate": "2007-08-05",
+        "airtime": "22:30",
+        "airstamp": "2007-08-06T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767496.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767496.jpg"
+        },
+        "summary": "<p>While E gets a new office and tries to announce his position as Vince's manager, Vince and Turtle fight with Gary Busey over an antique desk with a rich Hollywood history.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/51999"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52000,
+        "url": "https://www.tvmaze.com/episodes/52000/entourage-4x09-the-young-and-the-stoned",
+        "name": "The Young and the Stoned",
+        "season": 4,
+        "number": 9,
+        "type": "regular",
+        "airdate": "2007-08-12",
+        "airtime": "22:30",
+        "airstamp": "2007-08-13T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767497.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767497.jpg"
+        },
+        "summary": "<p>Eric gets into a car accident with Anna Faris. After she gives him his number so he could call for her insurance, he tries to contact her, but finds out she gave him a wrong number. So, he uses a star map to look up her address and goes to her house to talk to her. When they meet, they get along well and Eric actually drives Anna to a meeting for a movie. Meanwhile, Turtle is desperate because the boys ran out of weed, and while getting new drugs, Turtle, accompanied by some girls, gets stopped by the police.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52000"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52001,
+        "url": "https://www.tvmaze.com/episodes/52001/entourage-4x10-snow-job",
+        "name": "Snow Job",
+        "season": 4,
+        "number": 10,
+        "type": "regular",
+        "airdate": "2007-08-19",
+        "airtime": "22:30",
+        "airstamp": "2007-08-20T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767498.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767498.jpg"
+        },
+        "summary": "<p>While Vince is determining whether or not he wants to do Billy Walsh's next project as a personal favor, E takes on Anna Faris as a new client.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52001"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52002,
+        "url": "https://www.tvmaze.com/episodes/52002/entourage-4x11-no-cannes-do",
+        "name": "No Cannes Do",
+        "season": 4,
+        "number": 11,
+        "type": "regular",
+        "airdate": "2007-08-26",
+        "airtime": "22:30",
+        "airstamp": "2007-08-27T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/306/767499.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/306/767499.jpg"
+        },
+        "summary": "<p>Vince and co. are headed to Cannes for the premiere of the Medellin, but it's complicated when LAX is shut down due to a terror alert scare.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52002"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52003,
+        "url": "https://www.tvmaze.com/episodes/52003/entourage-4x12-the-cannes-kids",
+        "name": "The Cannes Kids",
+        "season": 4,
+        "number": 12,
+        "type": "regular",
+        "airdate": "2007-09-02",
+        "airtime": "22:30",
+        "airstamp": "2007-09-03T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767500.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767500.jpg"
+        },
+        "summary": "<p>The boys are in Cannes trying to seal the deal on Meddellin with big studio before the screening, while Yair Marx tries to buy them out with loads of cash. Meanwhile Johnny Drama finds his \"true love\".</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52003"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52004,
+        "url": "https://www.tvmaze.com/episodes/52004/entourage-5x01-fantasy-island",
+        "name": "Fantasy Island",
+        "season": 5,
+        "number": 1,
+        "type": "regular",
+        "airdate": "2008-09-07",
+        "airtime": "22:30",
+        "airstamp": "2008-09-08T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767501.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767501.jpg"
+        },
+        "summary": "<p>After \"Medellin\" bombs at Cannes, Vince hides out in Mexico. Drama's star status rubs some people the wrong way at a photo shoot.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52004"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52005,
+        "url": "https://www.tvmaze.com/episodes/52005/entourage-5x02-unlike-a-virgin",
+        "name": "Unlike a Virgin",
+        "season": 5,
+        "number": 2,
+        "type": "regular",
+        "airdate": "2008-09-14",
+        "airtime": "22:30",
+        "airstamp": "2008-09-15T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767502.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767502.jpg"
+        },
+        "summary": "<p>Eric tries to make a deal for 2 new clients. Drama does whatever it takes to keep his relationship with Jacqueline. An old flame returns to Vince.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52005"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52006,
+        "url": "https://www.tvmaze.com/episodes/52006/entourage-5x03-the-all-out-fall-out",
+        "name": "The All Out Fall Out",
+        "season": 5,
+        "number": 3,
+        "type": "regular",
+        "airdate": "2008-09-21",
+        "airtime": "22:30",
+        "airstamp": "2008-09-22T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767503.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767503.jpg"
+        },
+        "summary": "<p>A cash-strapped Vince searches high and low for any type of paying job. Ari and Adam Davies battle it out.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52006"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52007,
+        "url": "https://www.tvmaze.com/episodes/52007/entourage-5x04-fire-sale",
+        "name": "Fire Sale",
+        "season": 5,
+        "number": 4,
+        "type": "regular",
+        "airdate": "2008-09-28",
+        "airtime": "22:30",
+        "airstamp": "2008-09-29T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767504.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767504.jpg"
+        },
+        "summary": "<p>Eric, Vince, and Ari go all out to sell their new movie. Drama has another memorable turn on a talk show.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52007"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52008,
+        "url": "https://www.tvmaze.com/episodes/52008/entourage-5x05-tree-trippers",
+        "name": "Tree Trippers",
+        "season": 5,
+        "number": 5,
+        "type": "regular",
+        "airdate": "2008-10-05",
+        "airtime": "22:30",
+        "airstamp": "2008-10-06T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767505.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767505.jpg"
+        },
+        "summary": "<p>Facing a big decision about Vince's career, the boys head out of town to contemplate their next move. Lloyd must back Ari at a crucial time.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52008"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52009,
+        "url": "https://www.tvmaze.com/episodes/52009/entourage-5x06-redomption",
+        "name": "ReDOMption",
+        "season": 5,
+        "number": 6,
+        "type": "regular",
+        "airdate": "2008-10-12",
+        "airtime": "22:30",
+        "airstamp": "2008-10-13T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767506.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767506.jpg"
+        },
+        "summary": "<p>Vince's old friend, Dom, calls him for help. Turtle is reduced to being Drama's assistant. Ari squares off against Alan Gray over Vince's career.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52009"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52010,
+        "url": "https://www.tvmaze.com/episodes/52010/entourage-5x07-gotta-look-up-to-get-down",
+        "name": "Gotta Look Up to Get Down",
+        "season": 5,
+        "number": 7,
+        "type": "regular",
+        "airdate": "2008-10-19",
+        "airtime": "22:30",
+        "airstamp": "2008-10-20T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767507.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767507.jpg"
+        },
+        "summary": "<p>Vince meets a hot supermodel during a photo shoot. Ari wheels and deals while at a funeral.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52010"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52011,
+        "url": "https://www.tvmaze.com/episodes/52011/entourage-5x08-first-class-jerk",
+        "name": "First Class Jerk",
+        "season": 5,
+        "number": 8,
+        "type": "regular",
+        "airdate": "2008-10-26",
+        "airtime": "22:30",
+        "airstamp": "2008-10-27T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767508.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767508.jpg"
+        },
+        "summary": "<p>Vince meets a hot supermodel during a photo shoot. Ari wheels and deals while at a funeral.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52011"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52012,
+        "url": "https://www.tvmaze.com/episodes/52012/entourage-5x09-pie",
+        "name": "Pie",
+        "season": 5,
+        "number": 9,
+        "type": "regular",
+        "airdate": "2008-11-02",
+        "airtime": "22:30",
+        "airstamp": "2008-11-03T03:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767509.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767509.jpg"
+        },
+        "summary": "<p>Vince has problems on the set of \"Smokejumpers.\" Ari meets up with a former colleague.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52012"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52013,
+        "url": "https://www.tvmaze.com/episodes/52013/entourage-5x10-seth-green-day",
+        "name": "Seth Green Day",
+        "season": 5,
+        "number": 10,
+        "type": "regular",
+        "airdate": "2008-11-09",
+        "airtime": "22:30",
+        "airstamp": "2008-11-10T03:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767510.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767510.jpg"
+        },
+        "summary": "<p>Vince is having problems with the director of \"Smokejumpers.\" Eric finds out Seth Green could be the star of Charlie's pilot.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52013"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52014,
+        "url": "https://www.tvmaze.com/episodes/52014/entourage-5x11-playn-with-fire",
+        "name": "Play'n with Fire",
+        "season": 5,
+        "number": 11,
+        "type": "regular",
+        "airdate": "2008-11-16",
+        "airtime": "22:30",
+        "airstamp": "2008-11-17T03:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767511.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767511.jpg"
+        },
+        "summary": "<p>Vince and Werner disagree on a crucial scene in \"Smoke Jumpers.\" Turtle arranges a secret rendezvous.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52014"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52015,
+        "url": "https://www.tvmaze.com/episodes/52015/entourage-5x12-return-to-queens-boulevard",
+        "name": "Return to Queens Boulevard",
+        "season": 5,
+        "number": 12,
+        "type": "regular",
+        "airdate": "2008-11-23",
+        "airtime": "22:30",
+        "airstamp": "2008-11-24T03:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767512.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767512.jpg"
+        },
+        "summary": "<p>The boys return to New York, where Eric meets with Gus Van Sant and Drama looks to invest some of his new fortune. Vince runs into an old girlfriend.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52015"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52016,
+        "url": "https://www.tvmaze.com/episodes/52016/entourage-6x01-drive",
+        "name": "Drive",
+        "season": 6,
+        "number": 1,
+        "type": "regular",
+        "airdate": "2009-07-12",
+        "airtime": "22:30",
+        "airstamp": "2009-07-13T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767513.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767513.jpg"
+        },
+        "summary": "<p>Vince has to get his license while promoting his new movie. Lloyd demands a promotion. Eric considers buying his own house.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52016"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52017,
+        "url": "https://www.tvmaze.com/episodes/52017/entourage-6x02-amongst-friends",
+        "name": "Amongst Friends",
+        "season": 6,
+        "number": 2,
+        "type": "regular",
+        "airdate": "2009-07-19",
+        "airtime": "22:30",
+        "airstamp": "2009-07-20T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767514.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767514.jpg"
+        },
+        "summary": "<p>Eric has a \"non-date\" with Sloan at Vince's movie premiere. Turtle's relationship with Jamie-Lynn Sigler goes public.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52017"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52018,
+        "url": "https://www.tvmaze.com/episodes/52018/entourage-6x03-one-car-two-car-red-car-blue-car",
+        "name": "One Car, Two Car, Red Car, Blue Car",
+        "season": 6,
+        "number": 3,
+        "type": "regular",
+        "airdate": "2009-07-26",
+        "airtime": "22:30",
+        "airstamp": "2009-07-27T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767515.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767515.jpg"
+        },
+        "summary": "<p>Turtle considers a new career path and enlists Ari's help. Charlie's new TV show may spell problems for Eric.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52018"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52019,
+        "url": "https://www.tvmaze.com/episodes/52019/entourage-6x04-runnin-on-e",
+        "name": "Runnin' On E",
+        "season": 6,
+        "number": 4,
+        "type": "regular",
+        "airdate": "2009-08-02",
+        "airtime": "22:30",
+        "airstamp": "2009-08-03T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767516.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767516.jpg"
+        },
+        "summary": "<p>Lloyd is sent to spy on Andrew Klein. Drama must prepare for a romantic scene on his show. Turtle gets a new wardrobe, courtesy of Jamie-Lynn, and Vince keeps himself occupied between projects.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52019"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52020,
+        "url": "https://www.tvmaze.com/episodes/52020/entourage-6x05-fore",
+        "name": "Fore!",
+        "season": 6,
+        "number": 5,
+        "type": "regular",
+        "airdate": "2009-08-09",
+        "airtime": "22:30",
+        "airstamp": "2009-08-10T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767517.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767517.jpg"
+        },
+        "summary": "<p>Vince and Drama take on Tom Brady and Mark Wahlberg at a charity golf event. E gets an unexpected job offer. Ari is in trouble with Mrs. Ari.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52020"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52021,
+        "url": "https://www.tvmaze.com/episodes/52021/entourage-6x06-murphys-lie",
+        "name": "Murphy's Lie",
+        "season": 6,
+        "number": 6,
+        "type": "regular",
+        "airdate": "2009-08-16",
+        "airtime": "22:30",
+        "airstamp": "2009-08-17T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.9
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767518.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767518.jpg"
+        },
+        "summary": "<p>Drama warns Jamie-Lynn about a sleazy network executive. E must clear the air with Ashley. Ari has problems at work with Marlo Klein.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52021"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52022,
+        "url": "https://www.tvmaze.com/episodes/52022/entourage-6x07-no-more-drama",
+        "name": "No More Drama",
+        "season": 6,
+        "number": 7,
+        "type": "regular",
+        "airdate": "2009-08-23",
+        "airtime": "22:30",
+        "airstamp": "2009-08-24T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767519.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767519.jpg"
+        },
+        "summary": "<p>The house has a break-in. Drama must make amends with a studio executive, and E goes up against a co-worker at his new job.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52022"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52023,
+        "url": "https://www.tvmaze.com/episodes/52023/entourage-6x08-the-sorkin-notes",
+        "name": "The Sorkin Notes",
+        "season": 6,
+        "number": 8,
+        "type": "regular",
+        "airdate": "2009-08-30",
+        "airtime": "22:30",
+        "airstamp": "2009-08-31T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.5
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767520.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767520.jpg"
+        },
+        "summary": "<p>Eric rethinks his status with both Sloan and Ashley. Ari must perform damage control due to Andrew Klein's meltdown. The boys beef up security at the house.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52023"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52024,
+        "url": "https://www.tvmaze.com/episodes/52024/entourage-6x09-security-briefs",
+        "name": "Security Briefs",
+        "season": 6,
+        "number": 9,
+        "type": "regular",
+        "airdate": "2009-09-13",
+        "airtime": "22:30",
+        "airstamp": "2009-09-14T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767521.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767521.jpg"
+        },
+        "summary": "<p>The boys worry about security at the house. Adam Davies' revenge for Ari stealing Zac Efron as a client involves Lloyd. Drama turns into a private eye to find Vince's new stalker. Ashley demands a more honest relationship with Eric.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52024"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52025,
+        "url": "https://www.tvmaze.com/episodes/52025/entourage-6x10-berried-alive",
+        "name": "Berried Alive",
+        "season": 6,
+        "number": 10,
+        "type": "regular",
+        "airdate": "2009-09-20",
+        "airtime": "22:30",
+        "airstamp": "2009-09-21T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.5
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767522.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767522.jpg"
+        },
+        "summary": "<p>Conflict erupts between Ari and Lloyd when Drama wants to leave \"Five Towns\" for a role in the new \"Melrose Place\" series. Turtle's relationship with Jamie-Lynn Sigler is complicated by a tryst with a co-ed.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52025"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52026,
+        "url": "https://www.tvmaze.com/episodes/52026/entourage-6x11-scared-straight",
+        "name": "Scared Straight",
+        "season": 6,
+        "number": 11,
+        "type": "regular",
+        "airdate": "2009-09-27",
+        "airtime": "22:30",
+        "airstamp": "2009-09-28T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.1
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767523.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767523.jpg"
+        },
+        "summary": "<p>Suspicions arise when Terence wants to sell Ari his share of Ari's old agency. Drama goes on an audition for the new \"Melrose Place.\" Eric goes to the doctor after receiving some disturbing news.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52026"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52027,
+        "url": "https://www.tvmaze.com/episodes/52027/entourage-6x12-give-a-little-bit",
+        "name": "Give a Little Bit",
+        "season": 6,
+        "number": 12,
+        "type": "regular",
+        "airdate": "2009-10-04",
+        "airtime": "22:30",
+        "airstamp": "2009-10-05T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.5
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767524.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767524.jpg"
+        },
+        "summary": "<p>Vince prepares to film in Italy. Eric's luncheon date with Sloan doesn't go as planned. Drama considers leaving the business, and Turtle tries to win back Jamie-Lynn Sigler. Ari and his wife debate on whether or not to buy his old company.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52027"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52028,
+        "url": "https://www.tvmaze.com/episodes/52028/entourage-7x01-stunted",
+        "name": "Stunted",
+        "season": 7,
+        "number": 1,
+        "type": "regular",
+        "airdate": "2010-06-27",
+        "airtime": "22:30",
+        "airstamp": "2010-06-28T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.7
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767525.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767525.jpg"
+        },
+        "summary": "<p>E and Ari panic when Vince agrees to do his own stunts in the new Nick Cassavetes movie. Drama and Turtle have work issues of different kinds, and Ari considers a foray into the NFL.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52028"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52029,
+        "url": "https://www.tvmaze.com/episodes/52029/entourage-7x02-buzzed",
+        "name": "Buzzed",
+        "season": 7,
+        "number": 2,
+        "type": "regular",
+        "airdate": "2010-07-11",
+        "airtime": "22:30",
+        "airstamp": "2010-07-12T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767526.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767526.jpg"
+        },
+        "summary": "<p>Following his successful car-jumping stunt, Vince's devil-may-care attitude causes problems for Ari, who is negotiating with the NFL. Eric is dragged into Drama's search for a TV series. Turtle has problems with an ex-employee.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52029"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52030,
+        "url": "https://www.tvmaze.com/episodes/52030/entourage-7x03-dramedy",
+        "name": "Dramedy",
+        "season": 7,
+        "number": 3,
+        "type": "regular",
+        "airdate": "2010-07-18",
+        "airtime": "22:30",
+        "airstamp": "2010-07-19T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767527.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767527.jpg"
+        },
+        "summary": "<p>Eric and Phil Yagota try to convince Drama to work on a sitcom. Turtle gains an unlikely partner in a new business venture. Ari and Barbara Miller clash over giving Lizzie a promotion.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52030"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52031,
+        "url": "https://www.tvmaze.com/episodes/52031/entourage-7x04-tequila-sunrise",
+        "name": "Tequila Sunrise",
+        "season": 7,
+        "number": 4,
+        "type": "regular",
+        "airdate": "2010-07-25",
+        "airtime": "22:30",
+        "airstamp": "2010-07-26T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.6
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767528.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767528.jpg"
+        },
+        "summary": "<p>After a disastrous meeting with John Stamos, Drama asks advice from Bob Saget to fix the situation. Turtle is skeptical when Alex proposes a new business deal; Eric and Scott try to keep Vince's career and their new business moving forward.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52031"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52032,
+        "url": "https://www.tvmaze.com/episodes/52032/entourage-7x05-bottoms-up",
+        "name": "Bottoms Up",
+        "season": 7,
+        "number": 5,
+        "type": "regular",
+        "airdate": "2010-08-01",
+        "airtime": "22:30",
+        "airstamp": "2010-08-02T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.6
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767529.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767529.jpg"
+        },
+        "summary": "<p>Ari tries to make deals with several high-profile celebrities to protect himself against Lizzie's plans. Vince meets porn star Sasha Grey and introduces her to Stan Lee. Drama has to compete for work against Bob Saget.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52032"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52033,
+        "url": "https://www.tvmaze.com/episodes/52033/entourage-7x06-hair",
+        "name": "Hair",
+        "season": 7,
+        "number": 6,
+        "type": "regular",
+        "airdate": "2010-08-08",
+        "airtime": "22:30",
+        "airstamp": "2010-08-09T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.2
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767530.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767530.jpg"
+        },
+        "summary": "<p>Ari clashes with Amanda Daniels over the Lizzie Grant situation. Vince's erratic behavior intensifies. Billy Walsh makes a peace offering to E and Drama.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52033"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52034,
+        "url": "https://www.tvmaze.com/episodes/52034/entourage-7x07-tequila-and-coke",
+        "name": "Tequila and Coke",
+        "season": 7,
+        "number": 7,
+        "type": "regular",
+        "airdate": "2010-08-15",
+        "airtime": "22:30",
+        "airstamp": "2010-08-16T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767531.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767531.jpg"
+        },
+        "summary": "<p>Vince's behavior worries his new director. Billy Walsh's newest pitch for a show rankles Drama but intrigues Eric. Ari must negotiate with Lizzie Grant to retrieve incriminating evidence.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52034"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52035,
+        "url": "https://www.tvmaze.com/episodes/52035/entourage-7x08-sniff-sniff-gang-bang",
+        "name": "Sniff Sniff Gang Bang",
+        "season": 7,
+        "number": 8,
+        "type": "regular",
+        "airdate": "2010-08-22",
+        "airtime": "22:30",
+        "airstamp": "2010-08-23T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767532.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767532.jpg"
+        },
+        "summary": "<p>Sasha gets an offer she can't refuse to star in another porn film. Ari goes all out to repair his damaged image. Turtle has problems with the tequila line, and Drama isn't enthusiastic about a show the network wants for him.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52035"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52036,
+        "url": "https://www.tvmaze.com/episodes/52036/entourage-7x09-porn-scenes-from-an-italian-restaurant",
+        "name": "Porn Scenes from an Italian Restaurant",
+        "season": 7,
+        "number": 9,
+        "type": "regular",
+        "airdate": "2010-08-29",
+        "airtime": "22:30",
+        "airstamp": "2010-08-30T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.3
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767533.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767533.jpg"
+        },
+        "summary": "<p>Vince tries to get Sasha a role in his new movie to keep her from starring in an adult film. Turtle goes behind his boss' back to meet with Mark Cuban. Ari loses a business deal to Amanda Daniels.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52036"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52037,
+        "url": "https://www.tvmaze.com/episodes/52037/entourage-7x10-lose-yourself",
+        "name": "Lose Yourself",
+        "season": 7,
+        "number": 10,
+        "type": "regular",
+        "airdate": "2010-09-12",
+        "airtime": "22:30",
+        "airstamp": "2010-09-13T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767534.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767534.jpg"
+        },
+        "summary": "<p>Ari's surprise birthday for Mrs. Ari is undermined by work. The boys are worried about Vince's out-of-control behavior, Eric receives a business proposal from Terrance, and Turtle could lose the tequila business.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52037"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52038,
+        "url": "https://www.tvmaze.com/episodes/52038/entourage-8x01-home-sweet-home",
+        "name": "Home Sweet Home",
+        "season": 8,
+        "number": 1,
+        "type": "regular",
+        "airdate": "2011-07-24",
+        "airtime": "22:30",
+        "airstamp": "2011-07-25T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.4
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767535.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767535.jpg"
+        },
+        "summary": "<p>Drama freaks out when Vince returns from rehab and the gang decides to throw a huge party to celebrate. Elsewhere, E and Scott's new company is thriving and Drama clashes with his animated show's costar.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52038"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52039,
+        "url": "https://www.tvmaze.com/episodes/52039/entourage-8x02-out-with-a-bang",
+        "name": "Out with a Bang",
+        "season": 8,
+        "number": 2,
+        "type": "regular",
+        "airdate": "2011-07-31",
+        "airtime": "22:30",
+        "airstamp": "2011-08-01T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767536.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767536.jpg"
+        },
+        "summary": "<p>Vince writes a screenplay and Billy Walsh decides to use Drama as the lead. Meanwhile, Ari learns what Mrs. Ari has been up to and now has a sworn enemy.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52039"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52040,
+        "url": "https://www.tvmaze.com/episodes/52040/entourage-8x03-one-last-shot",
+        "name": "One Last Shot",
+        "season": 8,
+        "number": 3,
+        "type": "regular",
+        "airdate": "2011-08-07",
+        "airtime": "22:30",
+        "airstamp": "2011-08-08T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.6
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767537.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767537.jpg"
+        },
+        "summary": "<p>Vince tries to help out a fellow addict but things end badly. Ari decides to rekindle an old relationship. Turtle receives news from Carlos about his investment in Avion. Drama continues to clash with his \"Johnny Goes Bananas\" costar Andrew Dice Clay.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52040"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52041,
+        "url": "https://www.tvmaze.com/episodes/52041/entourage-8x04-whiz-kid",
+        "name": "Whiz Kid",
+        "season": 8,
+        "number": 4,
+        "type": "regular",
+        "airdate": "2011-08-14",
+        "airtime": "22:30",
+        "airstamp": "2011-08-15T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8.1
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767538.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767538.jpg"
+        },
+        "summary": "<p>Ari continues his fling with former flame, Dana Gordon. After a bad session of couples therapy, Ari takes Dana out to Bobby Flay's restaurant to get back at his wife. Dana learns of Ari's real motives and storms out. Mrs. Gold then accuses Ari of cheating on her with Dana while they were still together, which Ari immediately denies.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52041"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52042,
+        "url": "https://www.tvmaze.com/episodes/52042/entourage-8x05-motherfcker",
+        "name": "Motherf*cker",
+        "season": 8,
+        "number": 5,
+        "type": "regular",
+        "airdate": "2011-08-21",
+        "airtime": "22:30",
+        "airstamp": "2011-08-22T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767539.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767539.jpg"
+        },
+        "summary": "<p>Drama tries to get Andrew Dice Clay back on his show; Vince does a Vanity Fair interview; Ari has an awkward meeting with Dana Gordon.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52042"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52043,
+        "url": "https://www.tvmaze.com/episodes/52043/entourage-8x06-the-big-bang",
+        "name": "The Big Bang",
+        "season": 8,
+        "number": 6,
+        "type": "regular",
+        "airdate": "2011-08-28",
+        "airtime": "22:30",
+        "airstamp": "2011-08-29T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.5
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767540.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767540.jpg"
+        },
+        "summary": "<p>Vince tries to make things right with journalist Sophia Lear. Ari gets a reality check about his divorce. Eric receives an over-the-top gift, and some unsettling news. Turtle meets with his East Coast partners on a new venture. Drama shows his solidarity.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52043"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52044,
+        "url": "https://www.tvmaze.com/episodes/52044/entourage-8x07-second-to-last",
+        "name": "Second to Last",
+        "season": 8,
+        "number": 7,
+        "type": "regular",
+        "airdate": "2011-09-04",
+        "airtime": "22:30",
+        "airstamp": "2011-09-05T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 7.8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767541.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767541.jpg"
+        },
+        "summary": "<p>Vince continues to woo Sophia. The DeLucas fall in love with a pricey restaurant space, forcing Turtle to pitch his investors for more money. Distraught over Sloan, Eric turns to Melinda (again). Ari connects with Vince and Drama's miner movie script.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52044"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      },
+      {
+        "id": 52045,
+        "url": "https://www.tvmaze.com/episodes/52045/entourage-8x08-the-end",
+        "name": "The End",
+        "season": 8,
+        "number": 8,
+        "type": "regular",
+        "airdate": "2011-09-11",
+        "airtime": "22:30",
+        "airstamp": "2011-09-12T02:30:00+00:00",
+        "runtime": 30,
+        "rating": {
+          "average": 8
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/767542.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/767542.jpg"
+        },
+        "summary": "<p>(Series Finale) After a first date, Vince pulls out all the stops for Sophia. Ari and Mrs. Ari take a step forward, and a step back, at therapy. Drama, Turtle and Vince try to convince Sloan to give Eric another chance.</p>",
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/episodes/52045"
+          },
+          "show": {
+            "href": "https://api.tvmaze.com/shows/559"
+          }
+        }
+      }
+  ]
+}
