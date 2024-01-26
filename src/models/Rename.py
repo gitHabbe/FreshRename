@@ -1,3 +1,5 @@
+import re
+
 from models.LocalFileOriginal import LocalFileOriginal
 from models.namePatterns.NamePattern import NameStrategy, UpperLetters
 
@@ -41,8 +43,9 @@ class Rename:
         file_type = local_file.dir_entry.name.split(".")[-1]
         file_data["oldName"] = local_file.regex_match.string
         file_data["oldFile"] = local_file.dir_entry.path
-        file_data["newName"] = f"{self.__name_strategy.name()}{episode['name']}.{file_type}"
-        #regex /^(?!.{256,})(?!(aux|clock\$|con|nul|prn|com[1-9]|lpt[1-9])(?:$|\.))[^ ][ \.\w-$()+=[\];#@~,&amp;']+[^\. ]$/i
+        illegal_file_characters = "[\\\/:\"*?<>|]"
+        filtered_episode_name = re.sub(illegal_file_characters, "-", episode["name"])
+        file_data["newName"] = f"{self.__name_strategy.name()}{filtered_episode_name}.{file_type}"
         file_data["newName"] = file_data["newName"].replace(":", "-")
         old_path = local_file.path.parents[0]
         file_data["newFile"] = f"{old_path}{local_file.separator()}{file_data['newName']}"
