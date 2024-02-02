@@ -13,7 +13,6 @@ class Rename:
 
     def fill_file_list(self, store, request_show_episode_data, name_strategy):
         self.__name_strategy = name_strategy
-        # store = self.__dir_traverse.cache.store
         for episode in request_show_episode_data:
             season_num, episode_num = self.__uid(episode)
             local_file = store.get(season_num + episode_num)
