@@ -31,7 +31,8 @@ class CommandLine:
         name_strategy: NameStrategy = self.__choose_pattern()
 
         self.__store_local_files(episodes_path)
-        self.__os_action.fill_file_list(self.cache.store, episodes_data, name_strategy)
+        os_action = self.__os_action
+        os_action.rename.fill_file_list(self.cache.store, episodes_data, name_strategy)
         file_list = self.__os_action.rename.file_list
         self.__list_changes(file_list)
         is_confirmed: bool = self.__confirm_rename(file_list)
@@ -42,7 +43,7 @@ class CommandLine:
             return
 
     def __store_local_files(self, episodes_path):
-        iterator = self.__os_action.get_local_files(episodes_path)
+        iterator = self.__os_action.dir_traverse.get_local_files(episodes_path)
         for entry in iterator:
             self.__is_folder(entry)
             local_file_entry = LocalFileEntry(entry.name, entry.path)
