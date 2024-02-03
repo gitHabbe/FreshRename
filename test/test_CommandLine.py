@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
+
 import json
+import os
 import unittest
 from unittest.mock import MagicMock
 
 from approvaltests.approvals import verify
 
-from OSAction import OSAction
+from models.OSAction import OSAction
 from frontend.CommandLine.CommandLine import CommandLine
 from models.RequestShow import RequestShow
 from models.UserInput import UserInput
@@ -51,7 +54,9 @@ class TestCommandLine(unittest.TestCase):
     def __mock_request_data(self, tv_show_name, tv_show_request_data):
         request_show = RequestShow()
         request_show.name = MagicMock(return_value=[tv_show_request_data])
-        with open("../test/RequestShowData.json", "r") as tv_show_mock:
+        dirname = os.path.dirname(__file__)
+        json_file_path = os.path.join(dirname, 'RequestShowData.json')
+        with open(json_file_path, "r") as tv_show_mock:
             load = json.load(tv_show_mock)[tv_show_name]
             request_show.episodes = MagicMock(return_value=load)
         return request_show
