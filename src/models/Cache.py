@@ -2,8 +2,8 @@ from re import Match
 from dataclasses import dataclass, field
 
 from models import LocalFileEntry
-from src.models.LocalFileOriginal import LocalFileOriginal
-from src.models.Regex import FileRegex
+from models.LocalFileOriginal import LocalFileOriginal
+from models.Regex import FileRegex
 
 
 # @dataclass
