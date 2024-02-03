@@ -1,6 +1,6 @@
 import os
 
-from OSAction import OSAction
+from models.OSAction import OSAction
 from frontend.CommandLine.CommandLine import CommandLine
 from models.RequestShow import RequestShow
 from models.UserInput import UserInput

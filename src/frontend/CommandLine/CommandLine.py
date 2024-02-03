@@ -1,7 +1,7 @@
 import json
 from typing import Type
 
-from OSAction import OSAction
+from models.OSAction import OSAction
 from models.Cache import Cache
 from models.LocalFileEntry import LocalFileEntry
 from models.RequestShow import RequestShow
