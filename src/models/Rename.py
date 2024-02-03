@@ -59,4 +59,4 @@ class Rename:
         for singleFile in self.file_list:
             old_file = singleFile["oldFile"]
             new_file = singleFile["newFile"]
-            self.__os.rename(old_file, new_file)
+            self.__os.rename(old_file, new_file)  # FileNotFoundError
